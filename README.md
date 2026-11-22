@@ -1,5 +1,7 @@
 # gravdm v1
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24437869.svg)](https://doi.org/10.5281/zenodo.24437869)
+
 Code, stored numerical results and figure scripts for the main text and its Supplemental Material
 
 > C.-W. Chiang and V. Q. Tran, *Superheavy gravitational dark matter from runaway bubble collisions* (2026), arXiv number to be added.
@@ -124,6 +126,19 @@ If you use this code or its results, please cite the paper (see also `CITATION.c
     title         = "{Superheavy gravitational dark matter from runaway bubble collisions}",
     year          = "2026",
     note          = "arXiv number to be added"
+}
+```
+
+The code itself (version v1.0.0) is archived on Zenodo, doi:10.5281/zenodo.24437869:
+
+```bibtex
+@software{Chiang:2026superheavy_code,
+    author        = "Chiang, Cheng-Wei and Tran, Van Que",
+    title         = "{superheavy-gravDM: code and data for 'Superheavy gravitational dark matter from runaway bubble collisions'}",
+    version       = "v1.0.0",
+    year          = "2026",
+    publisher     = "Zenodo",
+    doi           = "10.5281/zenodo.24437869"
 }
 ```
 

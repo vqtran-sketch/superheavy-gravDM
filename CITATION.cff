@@ -10,6 +10,8 @@ authors:
     orcid: "https://orcid.org/0000-0003-4643-4050"
 license: MIT
 version: 1.0.0
+doi: 10.5281/zenodo.24437869
+repository-code: "https://github.com/vqtran-sketch/superheavy-gravDM"
 preferred-citation:
   type: article
   title: "Superheavy gravitational dark matter from runaway bubble collisions"
