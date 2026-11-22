@@ -16,30 +16,30 @@ Mt=172.6 alpha_s=0.1171 3-loop: xi_max(H) = 0.63 (1e8 GeV/H)^2
 Mt=172.6 alpha_s=0.1189 3-loop: xi_max(H) = 39.4 (1e8 GeV/H)^2
 
 alpha=0.05 nu=2.0: M_X 5.3e+12-1.5e+17 GeV, L^1/4 1.9e+11-3.4e+12, H_c 3.9e+04-1.2e+07 GeV
-  (B) EW vacuum after H_c, Mt=171.5 (3-loop): xi_H < 6.3e+06 (at max H_c) ... 6.5e+11 (at min H_c); 2-loop min 1.6e+06
-  (B) EW vacuum after H_c, Mt=172.0 (3-loop): xi_H < 2.4e+04 (at max H_c) ... 2.5e+09 (at min H_c); 2-loop min 9.9e+03
+  (B) EW vacuum after H_c, Mt=171.5 (3-loop): xi_H < 6.3e+06 (at max H_c) ... 6.3e+11 (at min H_c); 2-loop min 1.6e+06
+  (B) EW vacuum after H_c, Mt=172.0 (3-loop): xi_H < 2.4e+04 (at max H_c) ... 2.4e+09 (at min H_c); 2-loop min 9.9e+03
   (B) EW vacuum after H_c, Mt=172.1 (3-loop): xi_H < 1e+04 (at max H_c) ... 1e+09 (at min H_c); 2-loop min 4.4e+03
-  (B) EW vacuum after H_c, Mt=172.6 (3-loop): xi_H < 2.7e+02 (at max H_c) ... 2.8e+07 (at min H_c); 2-loop min 1.4e+02
-  (B) EW vacuum after H_c, Mt=172.7 (3-loop): xi_H < 1.4e+02 (at max H_c) ... 1.5e+07 (at min H_c); 2-loop min 80
+  (B) EW vacuum after H_c, Mt=172.6 (3-loop): xi_H < 2.7e+02 (at max H_c) ... 2.7e+07 (at min H_c); 2-loop min 1.4e+02
+  (B) EW vacuum after H_c, Mt=172.7 (3-loop): xi_H < 1.4e+02 (at max H_c) ... 1.4e+07 (at min H_c); 2-loop min 80
   (B) EW vacuum after H_c, Mt=173.0 (3-loop): xi_H < 27 (at max H_c) ... 2.7e+06 (at min H_c); 2-loop min 16
   (B) Mt=172.1, alpha_s=0.1171 (3-loop): xi_H < 8.6e+02 (at max H_c)
   (B) Mt=172.1, alpha_s=0.1189 (3-loop): xi_H < 2.4e+05 (at max H_c)
   (B) Mt=172.6, alpha_s=0.1171 (3-loop): xi_H < 41 (at max H_c)
   (B) Mt=172.6, alpha_s=0.1189 (3-loop): xi_H < 2.6e+03 (at max H_c)
-  (A) b=0.1 xi_H=0.1: H_kin,v1 2.2e+11-4.0e+12, H_HM 6.6e+10-1.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 9.5e+04
-  (A) b=0.1 xi_H=1.0: H_kin,v1 7.0e+10-1.2e+12, H_HM 6.6e+10-1.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 9.5e+04
-  (A) b=0.1 xi_H=5.0: H_kin,v1 3.1e+10-5.6e+11, H_HM 6.6e+10-1.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 4.5e+04
+  (A) b=0.1 xi_H=0.1: H_kin,v1 2.2e+11-4.0e+12, H_HM 6.7e+10-1.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 9.5e+04
+  (A) b=0.1 xi_H=1.0: H_kin,v1 7.0e+10-1.2e+12, H_HM 6.7e+10-1.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 9.5e+04
+  (A) b=0.1 xi_H=5.0: H_kin,v1 3.1e+10-5.6e+11, H_HM 6.7e+10-1.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 4.5e+04
   (A) b=1.0 xi_H=0.1: H_kin,v1 7.0e+11-1.2e+13, H_HM 1.2e+11-2.1e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.7e+05
   (A) b=1.0 xi_H=1.0: H_kin,v1 2.2e+11-4.0e+12, H_HM 1.2e+11-2.1e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.7e+05
   (A) b=1.0 xi_H=5.0: H_kin,v1 9.9e+10-1.8e+12, H_HM 1.2e+11-2.1e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.4e+05
 
-alpha=0.05 nu=3.0: M_X 5.3e+12-6.8e+16 GeV, L^1/4 2.5e+11-3.4e+12, H_c 6.6e+04-1.2e+07 GeV
-  (B) EW vacuum after H_c, Mt=171.5 (3-loop): xi_H < 6.3e+06 (at max H_c) ... 2.2e+11 (at min H_c); 2-loop min 1.6e+06
-  (B) EW vacuum after H_c, Mt=172.0 (3-loop): xi_H < 2.4e+04 (at max H_c) ... 8.5e+08 (at min H_c); 2-loop min 9.9e+03
-  (B) EW vacuum after H_c, Mt=172.1 (3-loop): xi_H < 1e+04 (at max H_c) ... 3.6e+08 (at min H_c); 2-loop min 4.4e+03
-  (B) EW vacuum after H_c, Mt=172.6 (3-loop): xi_H < 2.7e+02 (at max H_c) ... 9.4e+06 (at min H_c); 2-loop min 1.4e+02
-  (B) EW vacuum after H_c, Mt=172.7 (3-loop): xi_H < 1.4e+02 (at max H_c) ... 5.1e+06 (at min H_c); 2-loop min 80
-  (B) EW vacuum after H_c, Mt=173.0 (3-loop): xi_H < 27 (at max H_c) ... 9.3e+05 (at min H_c); 2-loop min 16
+alpha=0.05 nu=3.0: M_X 5.3e+12-6.8e+16 GeV, L^1/4 2.5e+11-3.4e+12, H_c 6.8e+04-1.2e+07 GeV
+  (B) EW vacuum after H_c, Mt=171.5 (3-loop): xi_H < 6.3e+06 (at max H_c) ... 2.1e+11 (at min H_c); 2-loop min 1.6e+06
+  (B) EW vacuum after H_c, Mt=172.0 (3-loop): xi_H < 2.4e+04 (at max H_c) ... 8.2e+08 (at min H_c); 2-loop min 9.9e+03
+  (B) EW vacuum after H_c, Mt=172.1 (3-loop): xi_H < 1e+04 (at max H_c) ... 3.4e+08 (at min H_c); 2-loop min 4.4e+03
+  (B) EW vacuum after H_c, Mt=172.6 (3-loop): xi_H < 2.7e+02 (at max H_c) ... 9.1e+06 (at min H_c); 2-loop min 1.4e+02
+  (B) EW vacuum after H_c, Mt=172.7 (3-loop): xi_H < 1.4e+02 (at max H_c) ... 4.9e+06 (at min H_c); 2-loop min 80
+  (B) EW vacuum after H_c, Mt=173.0 (3-loop): xi_H < 27 (at max H_c) ... 9e+05 (at min H_c); 2-loop min 16
   (B) Mt=172.1, alpha_s=0.1171 (3-loop): xi_H < 8.6e+02 (at max H_c)
   (B) Mt=172.1, alpha_s=0.1189 (3-loop): xi_H < 2.4e+05 (at max H_c)
   (B) Mt=172.6, alpha_s=0.1171 (3-loop): xi_H < 41 (at max H_c)
@@ -47,53 +47,53 @@ alpha=0.05 nu=3.0: M_X 5.3e+12-6.8e+16 GeV, L^1/4 2.5e+11-3.4e+12, H_c 6.6e+04-1
   (A) b=0.1 xi_H=0.1: H_kin,v1 1.9e+11-2.6e+12, H_HM 8.7e+10-1.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 9.5e+04
   (A) b=0.1 xi_H=1.0: H_kin,v1 6.1e+10-8.3e+11, H_HM 8.7e+10-1.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 6.7e+04
   (A) b=0.1 xi_H=5.0: H_kin,v1 2.7e+10-3.7e+11, H_HM 8.7e+10-1.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 3.0e+04
-  (A) b=1.0 xi_H=0.1: H_kin,v1 6.1e+11-8.3e+12, H_HM 1.5e+11-2.1e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.7e+05
-  (A) b=1.0 xi_H=1.0: H_kin,v1 1.9e+11-2.6e+12, H_HM 1.5e+11-2.1e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.7e+05
-  (A) b=1.0 xi_H=5.0: H_kin,v1 8.6e+10-1.2e+12, H_HM 1.5e+11-2.1e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 9.5e+04
+  (A) b=1.0 xi_H=0.1: H_kin,v1 6.1e+11-8.3e+12, H_HM 1.6e+11-2.1e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.7e+05
+  (A) b=1.0 xi_H=1.0: H_kin,v1 1.9e+11-2.6e+12, H_HM 1.6e+11-2.1e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.7e+05
+  (A) b=1.0 xi_H=5.0: H_kin,v1 8.7e+10-1.2e+12, H_HM 1.6e+11-2.1e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 9.5e+04
 
-alpha=0.005 nu=2.0: M_X 9.0e+12-5.2e+16 GeV, L^1/4 4.1e+11-4.2e+12, H_c 5.6e+05-6.0e+07 GeV
-  (B) EW vacuum after H_c, Mt=171.5 (3-loop): xi_H < 2.7e+05 (at max H_c) ... 3.1e+09 (at min H_c); 2-loop min 6.8e+04
+alpha=0.005 nu=2.0: M_X 9.0e+12-5.2e+16 GeV, L^1/4 4.1e+11-4.2e+12, H_c 5.7e+05-6.0e+07 GeV
+  (B) EW vacuum after H_c, Mt=171.5 (3-loop): xi_H < 2.7e+05 (at max H_c) ... 3e+09 (at min H_c); 2-loop min 6.8e+04
   (B) EW vacuum after H_c, Mt=172.0 (3-loop): xi_H < 1.1e+03 (at max H_c) ... 1.2e+07 (at min H_c); 2-loop min 4.3e+02
   (B) EW vacuum after H_c, Mt=172.1 (3-loop): xi_H < 4.4e+02 (at max H_c) ... 4.9e+06 (at min H_c); 2-loop min 1.9e+02
   (B) EW vacuum after H_c, Mt=172.6 (3-loop): xi_H < 12 (at max H_c) ... 1.3e+05 (at min H_c); 2-loop min 6.2
-  (B) EW vacuum after H_c, Mt=172.7 (3-loop): xi_H < 6.3 (at max H_c) ... 7e+04 (at min H_c); 2-loop min 3.5
+  (B) EW vacuum after H_c, Mt=172.7 (3-loop): xi_H < 6.3 (at max H_c) ... 6.9e+04 (at min H_c); 2-loop min 3.5
   (B) EW vacuum after H_c, Mt=173.0 (3-loop): xi_H < 1.2 (at max H_c) ... 1.3e+04 (at min H_c); 2-loop min 0.69
   (B) Mt=172.1, alpha_s=0.1171 (3-loop): xi_H < 37 (at max H_c)
   (B) Mt=172.1, alpha_s=0.1189 (3-loop): xi_H < 1e+04 (at max H_c)
   (B) Mt=172.6, alpha_s=0.1171 (3-loop): xi_H < 1.8 (at max H_c)
   (B) Mt=172.6, alpha_s=0.1189 (3-loop): xi_H < 1.1e+02 (at max H_c)
-  (A) b=0.1 xi_H=0.1: H_kin,v1 4.7e+11-4.9e+12, H_HM 1.4e+11-1.5e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 2.4e+04
+  (A) b=0.1 xi_H=0.1: H_kin,v1 4.8e+11-4.9e+12, H_HM 1.4e+11-1.5e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 2.4e+04
   (A) b=0.1 xi_H=1.0: H_kin,v1 1.5e+11-1.5e+12, H_HM 1.4e+11-1.5e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 2.4e+04
   (A) b=0.1 xi_H=5.0: H_kin,v1 6.7e+10-6.9e+11, H_HM 1.4e+11-1.5e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.2e+04
   (A) b=1.0 xi_H=0.1: H_kin,v1 1.5e+12-1.5e+13, H_HM 2.5e+11-2.6e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 4.4e+04
-  (A) b=1.0 xi_H=1.0: H_kin,v1 4.7e+11-4.9e+12, H_HM 2.5e+11-2.6e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 4.4e+04
+  (A) b=1.0 xi_H=1.0: H_kin,v1 4.8e+11-4.9e+12, H_HM 2.5e+11-2.6e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 4.4e+04
   (A) b=1.0 xi_H=5.0: H_kin,v1 2.1e+11-2.2e+12, H_HM 2.5e+11-2.6e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 3.7e+04
 
-alpha=0.005 nu=3.0: M_X 9.0e+12-2.1e+16 GeV, L^1/4 5.4e+11-4.2e+12, H_c 9.7e+05-6.0e+07 GeV
+alpha=0.005 nu=3.0: M_X 9.0e+12-2.1e+16 GeV, L^1/4 5.4e+11-4.2e+12, H_c 9.8e+05-6.0e+07 GeV
   (B) EW vacuum after H_c, Mt=171.5 (3-loop): xi_H < 2.7e+05 (at max H_c) ... 1e+09 (at min H_c); 2-loop min 6.8e+04
-  (B) EW vacuum after H_c, Mt=172.0 (3-loop): xi_H < 1.1e+03 (at max H_c) ... 4e+06 (at min H_c); 2-loop min 4.3e+02
+  (B) EW vacuum after H_c, Mt=172.0 (3-loop): xi_H < 1.1e+03 (at max H_c) ... 3.9e+06 (at min H_c); 2-loop min 4.3e+02
   (B) EW vacuum after H_c, Mt=172.1 (3-loop): xi_H < 4.4e+02 (at max H_c) ... 1.7e+06 (at min H_c); 2-loop min 1.9e+02
-  (B) EW vacuum after H_c, Mt=172.6 (3-loop): xi_H < 12 (at max H_c) ... 4.4e+04 (at min H_c); 2-loop min 6.2
-  (B) EW vacuum after H_c, Mt=172.7 (3-loop): xi_H < 6.3 (at max H_c) ... 2.4e+04 (at min H_c); 2-loop min 3.5
-  (B) EW vacuum after H_c, Mt=173.0 (3-loop): xi_H < 1.2 (at max H_c) ... 4.4e+03 (at min H_c); 2-loop min 0.69
+  (B) EW vacuum after H_c, Mt=172.6 (3-loop): xi_H < 12 (at max H_c) ... 4.3e+04 (at min H_c); 2-loop min 6.2
+  (B) EW vacuum after H_c, Mt=172.7 (3-loop): xi_H < 6.3 (at max H_c) ... 2.3e+04 (at min H_c); 2-loop min 3.5
+  (B) EW vacuum after H_c, Mt=173.0 (3-loop): xi_H < 1.2 (at max H_c) ... 4.3e+03 (at min H_c); 2-loop min 0.69
   (B) Mt=172.1, alpha_s=0.1171 (3-loop): xi_H < 37 (at max H_c)
   (B) Mt=172.1, alpha_s=0.1189 (3-loop): xi_H < 1e+04 (at max H_c)
   (B) Mt=172.6, alpha_s=0.1171 (3-loop): xi_H < 1.8 (at max H_c)
   (B) Mt=172.6, alpha_s=0.1189 (3-loop): xi_H < 1.1e+02 (at max H_c)
-  (A) b=0.1 xi_H=0.1: H_kin,v1 4.1e+11-3.2e+12, H_HM 1.9e+11-1.5e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 2.4e+04
+  (A) b=0.1 xi_H=0.1: H_kin,v1 4.2e+11-3.2e+12, H_HM 1.9e+11-1.5e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 2.4e+04
   (A) b=0.1 xi_H=1.0: H_kin,v1 1.3e+11-1.0e+12, H_HM 1.9e+11-1.5e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.7e+04
   (A) b=0.1 xi_H=5.0: H_kin,v1 5.9e+10-4.6e+11, H_HM 1.9e+11-1.5e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 7.7e+03
   (A) b=1.0 xi_H=0.1: H_kin,v1 1.3e+12-1.0e+13, H_HM 3.3e+11-2.6e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 4.4e+04
-  (A) b=1.0 xi_H=1.0: H_kin,v1 4.1e+11-3.2e+12, H_HM 3.3e+11-2.6e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 4.4e+04
+  (A) b=1.0 xi_H=1.0: H_kin,v1 4.2e+11-3.2e+12, H_HM 3.3e+11-2.6e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 4.4e+04
   (A) b=1.0 xi_H=5.0: H_kin,v1 1.9e+11-1.5e+12, H_HM 3.3e+11-2.6e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 2.4e+04
 
-alpha=0.0005 nu=2.0: M_X 1.5e+13-1.4e+16 GeV, L^1/4 9.0e+11-5.2e+12, H_c 8.5e+06-2.9e+08 GeV
-  (B) EW vacuum after H_c, Mt=171.5 (3-loop): xi_H < 1.2e+04 (at max H_c) ... 1.3e+07 (at min H_c); 2-loop min 2.9e+03
-  (B) EW vacuum after H_c, Mt=172.0 (3-loop): xi_H < 45 (at max H_c) ... 5.2e+04 (at min H_c); 2-loop min 18
+alpha=0.0005 nu=2.0: M_X 1.5e+13-1.6e+16 GeV, L^1/4 8.9e+11-5.2e+12, H_c 8.4e+06-2.9e+08 GeV
+  (B) EW vacuum after H_c, Mt=171.5 (3-loop): xi_H < 1.2e+04 (at max H_c) ... 1.4e+07 (at min H_c); 2-loop min 2.9e+03
+  (B) EW vacuum after H_c, Mt=172.0 (3-loop): xi_H < 45 (at max H_c) ... 5.3e+04 (at min H_c); 2-loop min 18
   (B) EW vacuum after H_c, Mt=172.1 (3-loop): xi_H < 19 (at max H_c) ... 2.2e+04 (at min H_c); 2-loop min 8.1
-  (B) EW vacuum after H_c, Mt=172.6 (3-loop): xi_H < 0.49 (at max H_c) ... 5.7e+02 (at min H_c); 2-loop min 0.26
-  (B) EW vacuum after H_c, Mt=172.7 (3-loop): xi_H < 0.27 (at max H_c) ... 3.1e+02 (at min H_c); 2-loop min 0.15
-  (B) EW vacuum after H_c, Mt=173.0 (3-loop): xi_H < 0.049 (at max H_c) ... 57 (at min H_c); 2-loop min 0.029
+  (B) EW vacuum after H_c, Mt=172.6 (3-loop): xi_H < 0.49 (at max H_c) ... 5.9e+02 (at min H_c); 2-loop min 0.26
+  (B) EW vacuum after H_c, Mt=172.7 (3-loop): xi_H < 0.27 (at max H_c) ... 3.2e+02 (at min H_c); 2-loop min 0.15
+  (B) EW vacuum after H_c, Mt=173.0 (3-loop): xi_H < 0.049 (at max H_c) ... 58 (at min H_c); 2-loop min 0.029
   (B) Mt=172.1, alpha_s=0.1171 (3-loop): xi_H < 1.6 (at max H_c)
   (B) Mt=172.1, alpha_s=0.1189 (3-loop): xi_H < 4.4e+02 (at max H_c)
   (B) Mt=172.6, alpha_s=0.1171 (3-loop): xi_H < 0.075 (at max H_c)
@@ -105,20 +105,20 @@ alpha=0.0005 nu=2.0: M_X 1.5e+13-1.4e+16 GeV, L^1/4 9.0e+11-5.2e+12, H_c 8.5e+06
   (A) b=1.0 xi_H=1.0: H_kin,v1 1.0e+12-6.0e+12, H_HM 5.5e+11-3.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.1e+04
   (A) b=1.0 xi_H=5.0: H_kin,v1 4.6e+11-2.7e+12, H_HM 5.5e+11-3.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 9.3e+03
 
-alpha=0.0005 nu=3.0: M_X 1.5e+13-6.4e+15 GeV, L^1/4 1.2e+12-5.2e+12, H_c 1.5e+07-2.9e+08 GeV
-  (B) EW vacuum after H_c, Mt=171.5 (3-loop): xi_H < 1.2e+04 (at max H_c) ... 4.5e+06 (at min H_c); 2-loop min 2.9e+03
+alpha=0.0005 nu=3.0: M_X 1.5e+13-6.4e+15 GeV, L^1/4 1.2e+12-5.2e+12, H_c 1.4e+07-2.9e+08 GeV
+  (B) EW vacuum after H_c, Mt=171.5 (3-loop): xi_H < 1.2e+04 (at max H_c) ... 4.7e+06 (at min H_c); 2-loop min 2.9e+03
   (B) EW vacuum after H_c, Mt=172.0 (3-loop): xi_H < 45 (at max H_c) ... 1.8e+04 (at min H_c); 2-loop min 18
-  (B) EW vacuum after H_c, Mt=172.1 (3-loop): xi_H < 19 (at max H_c) ... 7.3e+03 (at min H_c); 2-loop min 8.1
-  (B) EW vacuum after H_c, Mt=172.6 (3-loop): xi_H < 0.49 (at max H_c) ... 1.9e+02 (at min H_c); 2-loop min 0.26
-  (B) EW vacuum after H_c, Mt=172.7 (3-loop): xi_H < 0.27 (at max H_c) ... 1e+02 (at min H_c); 2-loop min 0.15
-  (B) EW vacuum after H_c, Mt=173.0 (3-loop): xi_H < 0.049 (at max H_c) ... 19 (at min H_c); 2-loop min 0.029
+  (B) EW vacuum after H_c, Mt=172.1 (3-loop): xi_H < 19 (at max H_c) ... 7.6e+03 (at min H_c); 2-loop min 8.1
+  (B) EW vacuum after H_c, Mt=172.6 (3-loop): xi_H < 0.49 (at max H_c) ... 2e+02 (at min H_c); 2-loop min 0.26
+  (B) EW vacuum after H_c, Mt=172.7 (3-loop): xi_H < 0.27 (at max H_c) ... 1.1e+02 (at min H_c); 2-loop min 0.15
+  (B) EW vacuum after H_c, Mt=173.0 (3-loop): xi_H < 0.049 (at max H_c) ... 20 (at min H_c); 2-loop min 0.029
   (B) Mt=172.1, alpha_s=0.1171 (3-loop): xi_H < 1.6 (at max H_c)
   (B) Mt=172.1, alpha_s=0.1189 (3-loop): xi_H < 4.4e+02 (at max H_c)
   (B) Mt=172.6, alpha_s=0.1171 (3-loop): xi_H < 0.075 (at max H_c)
   (B) Mt=172.6, alpha_s=0.1189 (3-loop): xi_H < 4.7 (at max H_c)
-  (A) b=0.1 xi_H=0.1: H_kin,v1 9.0e+11-4.0e+12, H_HM 4.1e+11-1.8e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 6.2e+03
-  (A) b=0.1 xi_H=1.0: H_kin,v1 2.9e+11-1.3e+12, H_HM 4.1e+11-1.8e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 4.4e+03
-  (A) b=0.1 xi_H=5.0: H_kin,v1 1.3e+11-5.7e+11, H_HM 4.1e+11-1.8e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 2.0e+03
-  (A) b=1.0 xi_H=0.1: H_kin,v1 2.9e+12-1.3e+13, H_HM 7.2e+11-3.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.1e+04
+  (A) b=0.1 xi_H=0.1: H_kin,v1 9.0e+11-4.0e+12, H_HM 4.0e+11-1.8e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 6.2e+03
+  (A) b=0.1 xi_H=1.0: H_kin,v1 2.8e+11-1.3e+12, H_HM 4.0e+11-1.8e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 4.4e+03
+  (A) b=0.1 xi_H=5.0: H_kin,v1 1.3e+11-5.7e+11, H_HM 4.0e+11-1.8e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 2.0e+03
+  (A) b=1.0 xi_H=0.1: H_kin,v1 2.8e+12-1.3e+13, H_HM 7.2e+11-3.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.1e+04
   (A) b=1.0 xi_H=1.0: H_kin,v1 9.0e+11-4.0e+12, H_HM 7.2e+11-3.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 1.1e+04
   (A) b=1.0 xi_H=5.0: H_kin,v1 4.0e+11-1.8e+12, H_HM 7.2e+11-3.2e+12; open H_inf range H_c < H_inf < min: min ratio min/H_c = 6.2e+03

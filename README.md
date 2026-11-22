@@ -70,12 +70,14 @@ python scripts/plots/p53_dm_plane_spins_plot.py        # SM Fig. S5 -> plots/p53
 ```
 
 Each takes a few seconds. With matplotlib 3.11.2 and the default macOS backend the figures are pixel-identical to those of the main text
-and the Supplemental Material, except that matplotlib may place the "0.99" contour label of Fig. S2(b) at a different point of the
-same contour. With the `Agg` backend the bounding boxes can differ by a few pixels.
+and the Supplemental Material, except Fig. S2: the paper version was made with matplotlib 3.10.0, and with 3.11.2 the figure is one
+point taller and the "0.99" contour label sits at a different point of the same contour. The data drawn are identical. With the `Agg`
+backend the bounding boxes can differ by a few pixels.
 
 ## Compute scripts
 
-Most numbers can be checked from the stored outputs without rerunning anything. To rerun, the order and the inputs of each script are
+Most numbers can be checked from the stored outputs without rerunning anything. The stored `.log` files of 02f, 03, 06, 07, 13, 14,
+21, 24, 26, 39 and 58 are captured standard output: run these scripts as `python ... | tee output/NN_name.log`. To rerun, the order and the inputs of each script are
 listed in `docs/PROVENANCE.md` (section 4). Runtime classes on a single laptop core:
 
 - *fast* (< 1 min): 01, 02g, 02h, 05, 07, 10, 14, 15, 17, 23, 24b, 26, 28, 45, 47–50, 57, 58, 64 and all plots;
@@ -95,12 +97,12 @@ done
 python $S/02g_lattice_yield_ratio.py; python $S/02h_lattice_diag_yield.py; python $S/02i_potential_term_check.py
 ```
 
-The expansion correction (Sec. S4) is
+The expansion correction (Sec. S4) is (the script writes its own log)
 
 ```bash
 S=scripts/compute
-python $S/63_expansion_correction.py '{"box": 24.0, "seeds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]}' | tee output/63_expansion_correction.log
-python $S/63_expansion_correction.py '{"box": 32.0, "seeds": [21, 22, 23, 24, 25, 26, 27, 28], "tag": "_box32"}' | tee output/63_expansion_correction_box32.log
+python $S/63_expansion_correction.py '{"box": 24.0, "seeds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]}'
+python $S/63_expansion_correction.py '{"box": 32.0, "seeds": [21, 22, 23, 24, 25, 26, 27, 28], "tag": "_box32"}'
 ```
 
 Fig. 2 uses the reheating temperature 1e11 GeV: `python scripts/compute/46_freezein_curve.py 1e11` and

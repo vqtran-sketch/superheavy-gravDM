@@ -68,13 +68,13 @@ formula of the text evaluated by hand or by a `gravdm` function. "[LIT]" marks a
 | grid 28 × 28 from m/2 to 3 gamma m; 20 and 40 points per wall; error ratio about four | `02f` |
 | extrapolation uncertainty ≤ 0.3% for 0.1–0.7 gamma m, 1 to 2% at gamma m; window and time step < 1e-4 | `02f` (`_n20`, `_win`, `_dt2`), `02h` (`sigR`, `sig_win`, `sig_dt2`) |
 | superposition without potential reproduces the parton prediction to 5e-5 | `02i` |
-| I_2 within 9.4/1.9/0.6%, I_0 within 29/4.6/1.3% (gamma = 40/80/160); lattice/superposition 1.3/0.3/0.1% (I_2), 0.5/0.1% (I_0) | `02f` |
+| I_2 within 9.4/1.9/0.6%, I_0 within 29/4.6/1.3% (gamma = 40/80/160); lattice/superposition 1.3/0.3/0.1% (I_2), 0.5/0.1% (I_0); all maxima over the square p_1, p_2 in [0.1, 1] gamma m (along the diagonal alone the lattice/superposition values are 0.75/0.19/0.07%) | `02f` |
 | soft deficit ≈ 2(m/p)^2; superposition with potential within 20% of it | `02i`, `02f` (`I2f`) |
 | Fig. S2(b): within 0.7% for p_1 p_2 > (0.1 gamma m)^2 | `02f` (gamma = 160) |
 | gamma = 10: I_2 excess 6 to 8% at 6–8 m; integrated yield up to 13% near mu ≈ 0.3 | `02f` (gamma = 10); `02g` |
 | f_2 from 1 to 2/3; yield ratio f_2 r_2 + (1 − f_2) r_0 | closed form; `02g` |
 | diagonal: 80% of the yield above 0.2 gamma m; within 0.3% up to 0.7 gamma m; M_X = 0.2 gamma m within 0.12% | `02h` |
-| integrated: 0.8% (gamma = 80, mu ≤ 1); 0.2% (mu ≤ 0.5) and 1.3% (mu = 1) at gamma = 160 | `02g` |
+| integrated: 0.8% (gamma = 80, mu ≤ 1); 0.2% (mu ≤ 0.5) and 1.3% (mu = 1) at gamma = 160 (central values; the Richardson step, a measure of the numerical uncertainty, is about 1% at mu = 0.5 and 3–4% at mu ≈ 1) | `02g` (`02g_lattice_yield_ratio.log`) |
 | quantum scattering ≈ 0.03 lambda m/p | closed-form estimate |
 | tilted quartic: 6% (I_2), 13% (I_0) at gamma_0 = 20; near rest inconclusive | `39` (<- 25 <- 16) |
 | even sextic potential: first collision within 4% | `56` (<- 55, 25) |
@@ -82,7 +82,7 @@ formula of the text evaluated by hand or by a `gravdm` function. "[LIT]" marks a
 ### SM S4 (oblique collisions, first-collision sum)
 | statement | source |
 |---|---|
-| flux factor within 1.2% for 30° to 180° | `15` (`tests/test_oblique.py`) |
+| flux factor within 1.2% for 30° to 180°, except a 4% deficit at 90° from the box edges (2.2% in a box twice as large) | `15` (`tests/test_oblique.py`, which skips 90°) |
 | geometric factor of An and Jiang equals the flux factor | `45` |
 | A_locus/V = 2 beta/3, Gamma(3) radii, <eta^3> = 1/2, Q_beta = 1/3 | `gravdm.semianalytic_q`, `gravdm.rspread`; `tests/test_semianalytic_q.py`, `tests/test_rspread.py` |
 | Monte Carlo 0.336 ± 0.002 (eight realizations, box 32/beta) | `11` (`python scripts/compute/11_universal_flat.py --post`) |
@@ -139,14 +139,14 @@ All values are [LIT] (Bödeker–Moore, Gouttenoire et al., Höche et al., Espin
 ## 4. Run order and script catalogue
 
 Run in this order to rebuild everything from scratch (later scripts read earlier outputs). The stored `.log` files of scripts that do
-not write their own log (03, 06, 07, 13, 14, 21, 24, 26, 39, 63) are captured standard output: run them as
+not write their own log (02f, 03, 06, 07, 13, 14, 21, 24, 26, 39, 58) are captured standard output: run them as
 `python ... | tee output/NN_name.log`.
 
 | script | reads | writes | gravdm modules | runtime |
 |---|---|---|---|---|
 | `01_universality_compute.py` | — | `01_universality.npz` | parton, xsec_analytic | fast |
 | `02_lattice_compute.py` | — | `02_lattice.npz` | lattice1d | medium |
-| `02f_lattice_dense.py GAMMA [PTS] [JSON TAG]` | imports `one()` from `02` | `02f_lattice_dense_g{GAMMA}[_n{PTS}][_{TAG}].{npz,log}` | lattice1d | heavy at gamma = 80, 160 |
+| `02f_lattice_dense.py GAMMA [PTS] [JSON TAG]` | imports `one()` from `02` | `02f_lattice_dense_g{GAMMA}[_n{PTS}][_{TAG}].npz` (+ captured `.log`) | lattice1d | heavy at gamma = 80, 160 |
 | `02g_lattice_yield_ratio.py` | `02f` (gamma = 10, 80, 160) | `02g_lattice_yield_ratio.{npz,log}` | gravxsec, parton | fast |
 | `02h_lattice_diag_yield.py` | `02f` (gamma = 80, 160, incl. `_win`, `_dt2`); imports `02g` | `02h_lattice_diag_yield.npz` | gravxsec, parton (via 02g) | fast |
 | `02i_potential_term_check.py` | — | `02i_potential_term_check.{npz,log}` | lattice1d | medium |
@@ -172,8 +172,8 @@ not write their own log (03, 06, 07, 13, 14, 21, 24, 26, 39, 63) are captured st
 | `27_bounce_window.py` | `04`, `06` | `27_bounce_window.{log,npz}` | bounce, units, window | medium |
 | `28_trapping_bounce.py` | `04`, `06`, `27` | `28_trapping_bounce.{log,npz}` | bounce, units, window | fast |
 | `26_kination_stability.py` | `04`, `06` | `26_kination_stability.npz` | sm_rge, units, window | fast |
-| `16_lattice_accelerating.py` | — | — | lattice1d | helper (imported by 25) |
-| `25_lattice_strong_accel.py` | — | — | lattice1d | helper (imported by 39, 56) |
+| `16_lattice_accelerating.py` | — | `16_lattice_accelerating.npz` when run (not stored) | lattice1d | helper (imported by 25) |
+| `25_lattice_strong_accel.py` | — | `25_lattice_strong_accel.npz` when run (not stored) | lattice1d | helper (imported by 39, 56) |
 | `39_lattice_anli_cubic.py` | — | `39_lattice_anli_cubic*.npz` | lattice1d | medium |
 | `45_oblique_aj_checks.py` | — | — (prints) | — | fast |
 | `46_freezein_curve.py [T_reh]` | — | `46_freezein_curve{,_T1e11}.npz` | freezein, units | medium |
@@ -184,7 +184,7 @@ not write their own log (03, 06, 07, 13, 14, 21, 24, 26, 39, 63) are captured st
 | `55_lattice_higgs_like.py` | — | `55_lattice_higgs_like.{log,npz}` | lattice1d | medium |
 | `56_lattice_higgs_like_measured.py` | — | `56_lattice_higgs_like_measured{tag}.{log,npz}` | lattice1d | medium |
 | `57_prethermal_estimate.py` | `50` | `57_prethermal_estimate.{log,npz}` | units | fast |
-| `58_opening_plane.py` | `50` | `58_opening_plane.{log,npz}` | units | fast |
+| `58_opening_plane.py` | `50` | `58_opening_plane.npz` (+ captured `.log`) | units | fast |
 | `63_expansion_correction.py [JSON]` | — | `63_expansion_correction{,_box32}.{log,npz}` | bubbles_mc | heavy |
 | `64_end_of_inflation_condition.py` | `50` | `64_end_of_inflation_condition.{log,npz}` | units | fast |
 | `p01b_universality_plot.py` | `01` | `plots/p01b_universality.{pdf,png}` | paper_plotstyle | fast |
@@ -199,16 +199,17 @@ The Monte-Carlo invocations of scripts 03 and 19 (Table SII normalization) are t
 
 ```bash
 S=scripts/compute
-python $S/03_yield_mc.py '{"points": [[0.05, 6]],   "boxes": [6.0], "seeds": [201, ..., 224], "eps": [0.01, 0.005], "npts": 2000000, "tag": "c1"}'
-python $S/03_yield_mc.py '{"points": [[0.0005, 6]], "boxes": [6.0], "seeds": [201, ..., 224], "eps": [0.01, 0.005], "npts": 2000000, "tag": "c2"}'
-python $S/03_yield_mc.py '{"points": [[0.05, 5]],   "boxes": [6.0], "seeds": [201, ..., 224], "eps": [0.01, 0.005], "npts": 2000000, "tag": "c3"}'
-python $S/03_yield_mc.py '{"points": [[0.05, 6]],   "boxes": [8.0], "seeds": [301, ..., 310], "eps": [0.01, 0.005], "npts": 2000000, "tag": "c4"}'
-python $S/19_kappa_recheck.py 6 201,...,224 0.01,0.005 2000000 20000 > output/19_kappa_recheck_L6.jsonl
-python $S/19_kappa_recheck.py 8 101,...,116 0.01,0.005 2000000 10000 > output/19_kappa_recheck_L8.jsonl
+python $S/03_yield_mc.py '{"points": [[0.05, 6]],   "boxes": [6.0], "seeds": [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224], "eps": [0.01, 0.005], "npts": 2000000, "tag": "c1"}'
+python $S/03_yield_mc.py '{"points": [[0.0005, 6]], "boxes": [6.0], "seeds": [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224], "eps": [0.01, 0.005], "npts": 2000000, "tag": "c2"}'
+python $S/03_yield_mc.py '{"points": [[0.05, 5]],   "boxes": [6.0], "seeds": [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224], "eps": [0.01, 0.005], "npts": 2000000, "tag": "c3"}'
+python $S/03_yield_mc.py '{"points": [[0.05, 6]],   "boxes": [8.0], "seeds": [301, 302, 303, 304, 305, 306, 307, 308, 309, 310], "eps": [0.01, 0.005], "npts": 2000000, "tag": "c4"}'
+python $S/19_kappa_recheck.py 6 201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224 0.01,0.005 2000000 20000 > output/19_kappa_recheck_L6.jsonl
+python $S/19_kappa_recheck.py 8 101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116 0.01,0.005 2000000 10000 > output/19_kappa_recheck_L8.jsonl
 python $S/05_kappaY_summary.py
 ```
-(`...` stands for the full comma-separated list of consecutive seeds. The number of sample points `npts` is not stored; 2×10^6 is
-within the (1–2)×10^6 used.)
+(Seeds, boxes, eps and the (alpha, n_DS) points are read back from the stored rows of `03_yield_mcc{1-4}.npz` and the JSON lines of
+script 19. The number of sample points `npts` was not stored by script 03; 2×10^6 is within the (1–2)×10^6 used, so a rerun reproduces
+the stored values within their statistical errors, not bit for bit.)
 
 ## 5. Numbers without a dedicated script or stored output
 
@@ -218,8 +219,9 @@ These come from closed forms or short checks. Each can be reproduced with a few 
 - the Dirac 10% points and the profile comparison at fixed wall energy (10% points within 10%, yields within a factor 1.3), from
   `01_universality.npz`;
 - the line-crossing (Crofton) estimate Q_beta = 0.3326 ± 0.0023;
-- the combined expansion factors of Sec. S4: inverse-variance means of the two box sizes in `63_expansion_correction.log` (box 24/beta)
-  and `63_expansion_correction_box32.log` (box 32/beta), with half their difference as a systematic error;
+- the combined expansion factors of Sec. S4: inverse-variance means over the two box sizes of Y_exp/Y_flat taken relative to the exact
+  Q_beta = 1/3 ("vs exact 1/3" in `63_expansion_correction.log`, box 24/beta, and `63_expansion_correction_box32.log`, box 32/beta),
+  with half their difference as a systematic error. The paired ratios to the flat Monte Carlo ("vs flat MC") are also printed;
 - the factor 1.6 for thermalization at 100 MeV, from the tabulated g_*rho and g_*s of Saikawa and Shirai (arXiv:1803.01038,
   ancillary file `standardmodel2018.dat`);
 - the primordial-black-hole collapse probability and the Hawking-radiation estimate;

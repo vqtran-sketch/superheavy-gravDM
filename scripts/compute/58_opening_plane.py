@@ -16,13 +16,13 @@ CMB bound [LIT]: r_0.05 < 0.036 (95% CL, BICEP:2021xfz) and A_s = 2.1e-9 (Planck
   The same bound applies to the collision curves: the vacuum energy of the transition, L = 3 H^2 M_P^2, cannot exceed the inflationary one.
 Annotation numbers [DERIVED here]: the largest M_X/T_reh on the freeze-in curve below the CMB bound and on the cores of the collision
   curves; the lowest T_reh of each; the heaviest freeze-in DM allowed by the CMB bound.
-Units: GeV. Output: output/58_opening_plane.npz and .log"""
+Units: GeV. Output: output/58_opening_plane.npz; output/58_opening_plane.log is captured standard output."""
 import sys, pathlib
 import numpy as np
 ROOT = pathlib.Path(__file__).resolve().parents[2]   # repository root
-from gravdm.units import M_P, G_STAR_SM
+from gravdm.units import M_P, G_STAR_SM, CMB_R_MAX, CMB_A_S
 
-CFG = dict(r_max=0.036, A_s=2.1e-9, g_star=G_STAR_SM)
+CFG = dict(r_max=CMB_R_MAX, A_s=CMB_A_S, g_star=G_STAR_SM)
 
 D = np.load(ROOT / "output/50_benchmark_dm_plane.npz")
 M = D["M"]

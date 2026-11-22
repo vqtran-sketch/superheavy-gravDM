@@ -1,7 +1,7 @@
 """15: direct numerical check of the oblique-collision flux factor.
 
 SM: Sec. S4, "Oblique factor" (a direct integration over two crossing sheets of Gaussian thickness reproduces the flux factor within
-1.2% for theta between 30 and 180 degrees).
+1.2% for theta between 30 and 180 degrees, except a 4% deficit at 90 degrees from the box edges, which halves in a box twice as large).
 
 Two planar null sheets of quanta moving along unit vectors n1, n2 (angle theta), column densities N1/A, N2/A, Gaussian thickness w:
    n_i(x, t) = (N_i/A) g_w(n_i . x - t).

@@ -15,9 +15,9 @@ import sys, pathlib
 import numpy as np
 from scipy import optimize
 ROOT = pathlib.Path(__file__).resolve().parents[2]   # repository root
-from gravdm.units import M_P, MY_DM
+from gravdm.units import M_P, MY_DM, CMB_R_MAX, CMB_A_S
 
-CFG = dict(A=1e-3, dirac_factor=2.0, c=1.0, f_max=0.1, A_s=2.1e-9, r_max=0.036, check_point=(1e13, 1e12))
+CFG = dict(A=1e-3, dirac_factor=2.0, c=1.0, f_max=0.1, A_s=CMB_A_S, r_max=CMB_R_MAX, check_point=(1e13, 1e12))
 
 H_inf_max = np.pi * M_P * np.sqrt(CFG["A_s"] * CFG["r_max"] / 2)
 

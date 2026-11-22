@@ -22,9 +22,9 @@ Units: GeV. Output: output/57_prethermal_estimate.log (and .npz)."""
 import sys, pathlib
 import numpy as np
 ROOT = pathlib.Path(__file__).resolve().parents[2]   # repository root
-from gravdm.units import M_P
+from gravdm.units import M_P, G_STAR_SM
 
-CFG = dict(gstar=106.75, kappa=(0.1, 0.2, 0.4), f_hs=(0.3, 0.8), alpha_s_MZ=0.118, MZ=91.19, mt=172.5, e_hat=0.27,
+CFG = dict(gstar=G_STAR_SM, kappa=(0.1, 0.2, 0.4), f_hs=(0.3, 0.8), alpha_s_MZ=0.118, MZ=91.19, mt=172.5, e_hat=0.27,
            bench_HB=(0.1, 0.03, 0.01), bench_nu=(2, 3), ratioFI=142.0, Mbar_coef=11.16,
            anli={0.05: dict(Q=0.341, eps=6.25, L4={2: (2e11, 3e12), 3: (3e11, 3e12)}),
                  5e-3: dict(Q=0.316, eps=5.54, L4={2: (4e11, 4e12), 3: (5e11, 4e12)}),

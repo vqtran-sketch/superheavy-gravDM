@@ -16,3 +16,8 @@ RHOC_H2 = 1.05368e-5             # critical density / h^2 [GeV cm^-3]
 OMEGA_DM_H2 = 0.120              # Planck 2018, arXiv:1807.06209 [LIT]
 MY_DM = OMEGA_DM_H2 * RHOC_H2 / S0_CM3   # M_X * Y_X required [GeV]
 G_STAR_SM = 106.75
+
+# CMB bound on primordial tensor modes [LIT]: r_0.05 < 0.036 (95% CL, BICEP/Keck 2021, arXiv:2110.00483) and the scalar
+# amplitude A_s = 2.1e-9 (Planck 2018, arXiv:1807.06209). Used by scripts 58 and 64.
+CMB_R_MAX = 0.036
+CMB_A_S = 2.1e-9

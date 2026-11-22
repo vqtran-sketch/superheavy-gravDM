@@ -10,7 +10,9 @@ Stored per run: lattice (l), superposed walls with their potential (f) and parto
 Usage: python 02f_lattice_dense.py GAMMA [PTS_PER_WALL] [JSON_OVERRIDES TAG]
 Uncertainty runs: '{"Tw": 5.0, "tc_over_Tw": 4.8}' win (Fourier window x1.25 at fixed collision time 24/m),
 '{"sample_dt": 0.00125}' dt2 (half sampling step).
-Output: output/02f_lattice_dense_g{GAMMA}[_n{PTS}][_{TAG}].npz and .log"""
+Output: output/02f_lattice_dense_g{GAMMA}[_n{PTS}][_{TAG}].npz; the stored .log files are captured standard output
+(python ... | tee output/02f_lattice_dense_g{GAMMA}[_n{PTS}][_{TAG}].log). In the stored _n20 files the cfg string lists
+pts_per_wall = 40 (written before this was fixed); the integer field pts_per_wall = 20 is correct."""
 import sys, pathlib, time, importlib.util, json
 import numpy as np
 ROOT = pathlib.Path(__file__).resolve().parents[2]   # repository root
@@ -26,7 +28,7 @@ if __name__ == "__main__":
     over = dict(sample_dt=CFG["sample_dt"]); over.update(json.loads(sys.argv[3]) if len(sys.argv) > 3 else {})
     t0 = time.time(); r = s02.one(g, pts_per_wall=pts, **over)
     tag = ("" if pts == CFG["pts_per_wall"] else f"_n{pts}") + (f"_{sys.argv[4]}" if len(sys.argv) > 4 else "")
-    np.savez(ROOT / f"output/02f_lattice_dense_g{int(g)}{tag}.npz", **r, gamma=g, pts_per_wall=pts, cfg=str(CFG), over=json.dumps(over))
+    np.savez(ROOT / f"output/02f_lattice_dense_g{int(g)}{tag}.npz", **r, gamma=g, pts_per_wall=pts, cfg=str({**CFG, "pts_per_wall": pts}), over=json.dumps(over))
     hh = (r["a"] >= 8) & (r["b"] >= 8) & (r["a"] <= 0.8 * g) & (r["b"] <= 0.8 * g)
     print(f"gamma={g} pts={pts} done t={time.time()-t0:.0f}s N={r['N']} Edrift={r['Edrift']:.1e} | 8m<=a,b<=0.8gm: "
           f"max|lat/free-1| I2={np.abs(r['I2l']/r['I2f']-1)[hh].max() if hh.any() else np.nan:.4f} "

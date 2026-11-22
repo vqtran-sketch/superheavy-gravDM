@@ -1,4 +1,4 @@
-"""Definition of the robust core of the DM lines, shared by scripts 06, 07, 10, 14, 17 and p06 (sections 4.4 and 5.4 of the paper).
+"""Definition of the robust core of the DM lines, shared by scripts 06, 07, 10, 14, 17, 50 and p53 (sections 4.4 and 5.4 of the companion paper).
 
 Lower edge: thermal freeze-in below 10% of the collision yield, Y_FI <= 0.1 Y_coll, i.e. f_coll = Y_coll/(Y_coll + Y_FI) >= 1/1.1
 (condition (ii) of section 4.4). Upper edge: R(M) >= 0.1 (condition (i)). The callers also apply an upper cap on L^{1/4}

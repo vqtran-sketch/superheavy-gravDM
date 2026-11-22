@@ -8,6 +8,7 @@ Prints only; no output files.
  (3) spacetime overlap of two top-hat sheets of thickness d: d^2/(2 eta) per unit length;
  (4) size of gamma m r for the flat-space benchmark (SM Eq. (S14), beta r = 3, reduced M_P, g_* = 106.75)."""
 import numpy as np
+from gravdm.units import M_P, G_STAR_SM
 # (1) An-Jiang 5.16 weight vs our eta * dA_locus, unequal bubbles, by finite differences (independent of the analytic proof)
 for r1, r2 in [(1,1),(1,1.7),(1,4),(0.3,2.5)]:
     s=r1+r2
@@ -34,7 +35,7 @@ for th in [150,90,40,20]:
     xs=np.linspace(-2,2,400001); dur=np.clip(d-np.abs((n1-n2)[0]*xs),0,None)
     print(th, "numeric", np.trapezoid(dur,xs), "d^2/(2eta)", d*d/(2*eta), "slab half-width", d/(2*eta))
 # (4) estimate gamma m r for the flat-space benchmark
-MP=2.435e18; T=1e10; g=106.75; H=np.sqrt(np.pi**2*g/90)*T**2/MP
+MP=M_P; T=1e10; g=G_STAR_SM; H=np.sqrt(np.pi**2*g/90)*T**2/MP
 for bh in [10,100]:
     beta=bh*H; r=3/beta; gm=10.4*MP/bh
     print(f"beta/H={bh}: H={H:.3g} GeV, gamma m={gm:.3g} GeV, r={r:.3g}/GeV, gamma m r={gm*r:.3g}")
