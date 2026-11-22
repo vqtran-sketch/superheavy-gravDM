@@ -18,9 +18,9 @@ cut), M_X < Mmax_frac M_P, and M_X >= beta/beta_frac = 10 beta (beta = (beta/H) 
 GW [LIT, estimate]: envelope approximation, Eqs. (7)-(10) in Caprini:2015zlo (arXiv:1512.06239), vacuum transition
   (alpha -> inf, kappa = 1, v_w = 1): f*/beta = 0.62/2.7, f_peak = 1.65e-5 Hz (f*/beta)(beta/H)(T_reh/100 GeV)(g*/100)^{1/6},
   h^2 Omega_peak = 1.67e-5 (H/beta)^2 (100/g*)^{1/3} 0.11/1.42; H at T_reh = vacuum H (instantaneous reheating, A_g T_reh^4 = L).
-Cross-check with Eq. (51) of Ghoshal:2026pew: n = 3N/(R* A), R* = (8pi)^{1/3}/beta, E/A = L R*/3 for both walls, no oblique factor,
+Cross-check with Eq. (5.1) of Ghoshal:2026pew (JHEP 11 (2026) 142): n = 3N/(R* A), R* = (8pi)^{1/3}/beta, E/A = L R*/3 for both walls, no oblique factor,
   vs ours n = 8c L^2 Q_beta/(beta M_P^4) at the same event yield per area, N_ev/A = 4c (E1/A)(E2/A)/M_P^4 (N/A in that reference counts
-  events, its Eq. (23); the 2 in its Eq. (51) is the pair factor): ratio = (8pi)^{1/3}/(6 Q_beta) = 1.46.
+  events, its Eq. (3.12); the 2 in its Eq. (5.1) is the pair factor): ratio = (8pi)^{1/3}/(6 Q_beta) = 1.46.
 Closed forms (Mbar, envelope GW, comparison ratio) are in gravdm.benchdm (tests/test_benchdm.py).
 Output: output/50_benchmark_dm_plane.npz"""
 import sys, pathlib

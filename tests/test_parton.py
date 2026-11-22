@@ -13,21 +13,21 @@ def test_parseval_tension(profile):
 
 
 def test_known_tensions():
-    """tanh kink: sigma = Dphi^2 m/6 (= (2/3) m_s w^2 for Dphi = 2w, Ghoshal:2026pew below eq. 26) [LIT]."""
+    """tanh kink: sigma = Dphi^2 m/6 (= (2/3) m_s w^2 for Dphi = 2w, Ghoshal:2026pew below eq. (3.15)) [LIT]."""
     assert np.isclose(pt.sigma_over_dphi2_m("tanh")[1], 1 / 6, rtol=1e-10)
     assert np.isclose(pt.sigma_over_dphi2_m("erf")[1], 1 / (2 * np.sqrt(np.pi)), rtol=1e-10)
 
 
 @pytest.mark.parametrize("z", [1e-8, 1e-6])
 def test_gps_eq30_luminosity(z):
-    """[LIT: Ghoshal:2026pew (2607.15279) eq. (30)] s dL/ds = 32 w^4/pi^2 ln(gamma e m/(pi sqrt s)) for sqrt s << gamma m, Dphi = 2w
+    """[LIT: Ghoshal:2026pew (JHEP 11 (2026) 142) eq. (3.19)] s dL/ds = 32 w^4/pi^2 ln(gamma e m/(pi sqrt s)) for sqrt s << gamma m, Dphi = 2w
     <=> K(z) = 2 ln(e/(2 pi sqrt z))."""
     assert np.isclose(pt.K(z, "tanh"), 2 * np.log(np.e / (2 * np.pi * np.sqrt(z))), rtol=1e-8)
 
 
 @pytest.mark.parametrize("x", [4.0, 10.0, 20.0])
 def test_gps_eq30_high_branch(x):
-    """[LIT: Ghoshal:2026pew eq. (30), sqrt s >> gamma m branch] K = pi^4 x^{7/2} e^{-2 pi x}, x = sqrt(s)/(gamma m) = 2 sqrt z:
+    """[LIT: Ghoshal:2026pew eq. (3.19), sqrt s >> gamma m branch] K = pi^4 x^{7/2} e^{-2 pi x}, x = sqrt(s)/(gamma m) = 2 sqrt z:
     agrees to 0.5% at x = 4 and better above."""
     assert np.isclose(pt.K(x ** 2 / 4, "tanh"), np.pi ** 4 * x ** 3.5 * np.exp(-2 * np.pi * x), rtol=6e-3)
 
@@ -142,7 +142,7 @@ def test_aW_mellin_closed_form(profile):
 
 @pytest.mark.parametrize("zeta", [1e-6, 1e-3, 0.25, 1.0, 4.0])
 def test_gps_eq30_full_J_form(zeta):
-    """[LIT: Ghoshal:2026pew eq. (30), exact form] s dL/ds = pi^2 w^4 s^2/(gamma^4 m^4) J(pi sqrt s/(2 gamma m)),
+    """[LIT: Ghoshal:2026pew eq. (3.19), exact form] s dL/ds = pi^2 w^4 s^2/(gamma^4 m^4) J(pi sqrt s/(2 gamma m)),
     J(z) = int dr csch^2(z e^-r) csch^2(z e^r)  <=>  K(zeta) = pi^4 zeta^2 J(pi sqrt zeta) for the tanh wall (Dphi = 2w)."""
     from scipy import integrate
     y = np.pi * np.sqrt(zeta)

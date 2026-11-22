@@ -1,6 +1,6 @@
 """Gravitational freeze-in of X from the SM thermal bath (section 4.3 and appendix B of the paper).
 
-[LIT: Redi-Tesi 2606.28297 eq. (58)] for massless conformal sectors:
+[LIT: Redi-Tesi, JHEP 11 (2026) 097 (arXiv:2606.28297), eq. (4.6)] for massless conformal sectors:
   gamma(T) = (2/M_P^4) (2 c_J/(7680 pi)) (2 c_SM/(7680 pi)) int ds s^{5/2} T K1(sqrt(s)/T) / (8 pi^3)
            = 3 c_J c_SM T^8 / (1280 pi^5 M_P^4)
 yield_freezein_X (used for the paper, eq. (B.2)): spin-2 channel of the conformal SM (c_SM: 4 real scalars (4/3 each),

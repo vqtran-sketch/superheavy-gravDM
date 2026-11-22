@@ -157,7 +157,7 @@ def test_closed_form_general_xi(xi, r):
 
 @pytest.mark.parametrize("case,cJ,frac", [("conformal", 4 / 3, 1.0), ("dirac", 8.0, 1.0), ("vector", 16.0, 2 / 3)])
 def test_redi_tesi_master_formula(case, cJ, frac):
-    """[LIT: Redi-Tesi 2606.28297 eqs. (3),(38),(53)] on a 2-particle massless initial state the CFT production
+    """[LIT: Redi-Tesi, JHEP 11 (2026) 097, eqs. (2.3), (3.5), (4.1)] on a 2-particle massless initial state the CFT production
     gives sigma = c_J s/(7680 pi M_P^4), c_0 = 4/3 (conformal real scalar), Weyl 4 (Dirac = 8), vector 16.
     For the Proca vector compare the transverse part (2/3 of the massless total; longitudinal = minimal scalar)."""
     assert np.isclose(cJ / (7680 * np.pi), frac * xa.c0(case), rtol=1e-10)

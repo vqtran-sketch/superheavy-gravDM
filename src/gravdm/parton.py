@@ -2,7 +2,7 @@
 
 Planar wall moving along +x with rest-frame profile phi(z), field jump Dphi, mass scale m, Lorentz factor gamma.
   F(k)    = int dz phi'(z) e^{i k z}                     (rest frame; F(0) = Dphi)            [eq. (3.3)]
-  dN/(A dp) = |F(p/gamma)|^2 / (pi p)                     (lab frame, quasi-real quanta)       [eq. (3.5)]   [LIT: Ghoshal:2026pew, eq. (19)]
+  dN/(A dp) = |F(p/gamma)|^2 / (pi p)                     (lab frame, quasi-real quanta)       [eq. (3.5)]   [LIT: Ghoshal:2026pew, eq. (3.8)]
   E/A     = int p dN = gamma int_0^inf dk |F|^2/pi = gamma sigma_wall                            [eq. (3.4)]
 Using x = p/(gamma m) and W(x) = |F(m x)|^2/Dphi^2 (W(0) = 1):
   s dL/ds = (Dphi^4/pi^2) K(z),  K(z) = int_0^inf dx/x W(x) W(z/x),  z = s/(4 gamma^2 m^2)      [eq. (3.7)]

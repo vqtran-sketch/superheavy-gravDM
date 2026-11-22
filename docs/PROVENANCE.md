@@ -91,7 +91,7 @@ formula of the text evaluated by hand or by a `gravdm` function. "[LIT]" marks a
 | Gamma(4) radii, 6 eta^5, M̄_coll = 525 pi L/(256 beta Dphi^2); R = 0.9/0.5/0.1 at 0.04/0.17/0.45 | `gravdm.rspread`, `gravdm.benchdm`; `47` |
 | M̄_coll = 0.12 M_P and 0.012 M_P (nu = 3) | `50` |
 | expansion: 0.669 ± 0.006, 0.857 ± 0.012, 0.951 ± 0.011; e^{-4.2 H/beta} within 3%; ≤ 1.14 in T_reh | `63` (two boxes; section 5) |
-| comparison with Redi et al.: about thirty times larger | closed form with [LIT] Eq. (51) of Redi et al. |
+| comparison with Redi et al.: about thirty times larger | closed form with [LIT] Eq. (3.18) of Redi et al. (JHEP 11 (2026) 097) |
 
 ### SM S5 (freeze-in, DM curves)
 | statement | source |

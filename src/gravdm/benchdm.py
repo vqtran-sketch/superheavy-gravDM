@@ -26,7 +26,7 @@ def treh_min(hbeta, nu, coeff, muR_max):
 
 
 def gps_sphere_ratio(Q_beta=1.0 / 3.0):
-    """n_X of the spherical-bubble estimate of Ghoshal:2026pew Eq. (51) (v2; radius R* = (8 pi)^{1/3}/beta, E/A = L R*/3, no oblique
+    """n_X of the spherical-bubble estimate of Ghoshal:2026pew Eq. (5.1) (JHEP 11 (2026) 142; radius R* = (8 pi)^{1/3}/beta, E/A = L R*/3, no oblique
     factor) divided by ours, n_X = 8 c L^2 Q_beta/(beta M_P^4), for the same EVENT yield per unit wall area [DERIVED].
     Eq. (51): n = (2/2)(4 pi R*^2)/(4 pi R*^3/3) N/A, with N/A the number of hard collisions per area (their Eq. (23)); the numerator 2 is
     the pair factor, the denominator 2 the sharing of each wall area by two bubbles (their Eq. (69) uses the surface density 3/(2R*)).
