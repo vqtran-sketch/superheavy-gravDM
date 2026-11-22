@@ -1,4 +1,4 @@
-# gravdm v2
+# gravdm v1
 
 Code, stored numerical results and figure scripts for the main text and its Supplemental Material
 
