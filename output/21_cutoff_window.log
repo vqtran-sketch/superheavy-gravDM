@@ -1,4 +1,4 @@
-src/gravdm/freezein.py:31: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+src/gravdm/freezein.py:37: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
   the requested tolerance from being achieved.  The error may be 
   underestimated.
   val = integrate.quad(f, lo, max(lo, 0) + 60, limit=400)[0]
@@ -7,111 +7,111 @@ check scalar: max |G(mu, inf)/g_01(mu) - 1| = 4.1e-04 (g > 1e-3)
 check conformal: max |G(mu, inf)/g_01(mu) - 1| = 6.2e-04 (g > 1e-3)
 check dirac: max |G(mu, inf)/g_01(mu) - 1| = 1.1e-04 (g > 1e-3)
 check vector: max |G(mu, inf)/g_01(mu) - 1| = 4.1e-04 (g > 1e-3)
-alpha=0.05 nu=1.0: parton sqrt(s) q50 0.307, q90 0.736 M_P (wall scale q90 0.889); yield above 0.1: 0.88, 0.2: 0.69, 0.46: 0.29
+alpha=0.05 nu=1.0: parton sqrt(s) q50 0.300, q90 0.718 M_P (wall scale q90 0.861); yield above 0.1: 0.88, 0.2: 0.68, 0.46: 0.28
    scalar: no-cut vs 06 max |dL4/L4| = 0.0e+00
    conformal: no-cut vs 06 max |dL4/L4| = 0.0e+00
    dirac: no-cut vs 06 max |dL4/L4| = 0.0e+00
-   dirac nocut   : R_cut(0) = 1.000; core M 6.91e+12-5.57e+17, L4 1.20e+11-3.17e+12
-   dirac cut0.1  : R_cut(0) = 0.119; core M 1.52e+13-2.38e+16, L4 4.57e+11-4.93e+12
-   dirac cut0.2  : R_cut(0) = 0.308; core M 1.02e+13-1.15e+17, L4 2.45e+11-4.07e+12
-   dirac cut0.46 : R_cut(0) = 0.706; core M 7.88e+12-3.29e+17, L4 1.51e+11-3.40e+12
+   dirac nocut   : R_cut(0) = 1.000; core M 5.31e+12-5.57e+17, L4 1.21e+11-3.42e+12
+   dirac cut0.1  : R_cut(0) = 0.124; core M 1.33e+13-2.71e+16, L4 4.38e+11-5.06e+12
+   dirac cut0.2  : R_cut(0) = 0.318; core M 8.99e+12-1.31e+17, L4 2.42e+11-4.20e+12
+   dirac cut0.46 : R_cut(0) = 0.719; core M 6.06e+12-3.29e+17, L4 1.51e+11-3.64e+12
    vector: no-cut vs 06 max |dL4/L4| = 0.0e+00
-alpha=0.05 nu=1.5: parton sqrt(s) q50 0.137, q90 0.327 M_P (wall scale q90 0.395); yield above 0.1: 0.64, 0.2: 0.30, 0.46: 0.03
+alpha=0.05 nu=1.5: parton sqrt(s) q50 0.133, q90 0.319 M_P (wall scale q90 0.383); yield above 0.1: 0.63, 0.2: 0.29, 0.46: 0.03
    scalar: no-cut vs 06 max |dL4/L4| = 0.0e+00
    conformal: no-cut vs 06 max |dL4/L4| = 0.0e+00
    dirac: no-cut vs 06 max |dL4/L4| = 0.0e+00
-   dirac nocut   : R_cut(0) = 1.000; core M 6.91e+12-2.89e+17, L4 1.58e+11-3.17e+12
-   dirac cut0.1  : R_cut(0) = 0.356; core M 1.02e+13-6.81e+16, L4 2.96e+11-3.91e+12
-   dirac cut0.2  : R_cut(0) = 0.695; core M 7.88e+12-1.50e+17, L4 2.00e+11-3.41e+12
-   dirac cut0.46 : R_cut(0) = 0.971; core M 6.91e+12-2.53e+17, L4 1.61e+11-3.19e+12
+   dirac nocut   : R_cut(0) = 1.000; core M 5.31e+12-2.89e+17, L4 1.59e+11-3.42e+12
+   dirac cut0.1  : R_cut(0) = 0.366; core M 8.99e+12-6.81e+16, L4 2.93e+11-4.04e+12
+   dirac cut0.2  : R_cut(0) = 0.708; core M 6.91e+12-1.50e+17, L4 1.99e+11-3.55e+12
+   dirac cut0.46 : R_cut(0) = 0.975; core M 5.31e+12-2.53e+17, L4 1.62e+11-3.45e+12
    vector: no-cut vs 06 max |dL4/L4| = 0.0e+00
-alpha=0.05 nu=2.0: parton sqrt(s) q50 0.077, q90 0.184 M_P (wall scale q90 0.222); yield above 0.1: 0.36, 0.2: 0.08, 0.46: 0.00
+alpha=0.05 nu=2.0: parton sqrt(s) q50 0.075, q90 0.179 M_P (wall scale q90 0.215); yield above 0.1: 0.35, 0.2: 0.07, 0.46: 0.00
    scalar: no-cut vs 06 max |dL4/L4| = 0.0e+00
    conformal: no-cut vs 06 max |dL4/L4| = 0.0e+00
    dirac: no-cut vs 06 max |dL4/L4| = 0.0e+00
-   dirac nocut   : R_cut(0) = 1.000; core M 6.91e+12-1.50e+17, L4 1.91e+11-3.17e+12
-   dirac cut0.1  : R_cut(0) = 0.635; core M 7.88e+12-6.81e+16, L4 2.55e+11-3.50e+12
-   dirac cut0.2  : R_cut(0) = 0.923; core M 6.91e+12-1.31e+17, L4 2.02e+11-3.24e+12
-   dirac cut0.46 : R_cut(0) = 0.999; core M 6.91e+12-1.50e+17, L4 1.91e+11-3.17e+12
+   dirac nocut   : R_cut(0) = 1.000; core M 5.31e+12-1.50e+17, L4 1.93e+11-3.42e+12
+   dirac cut0.1  : R_cut(0) = 0.648; core M 6.91e+12-6.81e+16, L4 2.54e+11-3.64e+12
+   dirac cut0.2  : R_cut(0) = 0.929; core M 5.31e+12-1.31e+17, L4 2.03e+11-3.49e+12
+   dirac cut0.46 : R_cut(0) = 0.999; core M 5.31e+12-1.50e+17, L4 1.93e+11-3.42e+12
    vector: no-cut vs 06 max |dL4/L4| = 0.0e+00
-alpha=0.05 nu=3.0: parton sqrt(s) q50 0.034, q90 0.082 M_P (wall scale q90 0.099); yield above 0.1: 0.05, 0.2: 0.00, 0.46: 0.00
+alpha=0.05 nu=3.0: parton sqrt(s) q50 0.033, q90 0.080 M_P (wall scale q90 0.096); yield above 0.1: 0.05, 0.2: 0.00, 0.46: 0.00
    scalar: no-cut vs 06 max |dL4/L4| = 0.0e+00
    conformal: no-cut vs 06 max |dL4/L4| = 0.0e+00
    dirac: no-cut vs 06 max |dL4/L4| = 0.0e+00
-   dirac nocut   : R_cut(0) = 1.000; core M 6.91e+12-6.81e+16, L4 2.50e+11-3.17e+12
-   dirac cut0.1  : R_cut(0) = 0.949; core M 6.91e+12-5.97e+16, L4 2.60e+11-3.22e+12
-   dirac cut0.2  : R_cut(0) = 0.999; core M 6.91e+12-6.81e+16, L4 2.50e+11-3.17e+12
-   dirac cut0.46 : R_cut(0) = 1.000; core M 6.91e+12-6.81e+16, L4 2.50e+11-3.17e+12
+   dirac nocut   : R_cut(0) = 1.000; core M 5.31e+12-6.81e+16, L4 2.52e+11-3.42e+12
+   dirac cut0.1  : R_cut(0) = 0.954; core M 5.31e+12-5.97e+16, L4 2.61e+11-3.47e+12
+   dirac cut0.2  : R_cut(0) = 0.999; core M 5.31e+12-6.81e+16, L4 2.53e+11-3.42e+12
+   dirac cut0.46 : R_cut(0) = 1.000; core M 5.31e+12-6.81e+16, L4 2.52e+11-3.42e+12
    vector: no-cut vs 06 max |dL4/L4| = 0.0e+00
-alpha=0.005 nu=1.0: parton sqrt(s) q50 0.097, q90 0.231 M_P (wall scale q90 0.267); yield above 0.1: 0.48, 0.2: 0.15, 0.46: 0.00
+alpha=0.005 nu=1.0: parton sqrt(s) q50 0.096, q90 0.229 M_P (wall scale q90 0.270); yield above 0.1: 0.48, 0.2: 0.15, 0.46: 0.00
    scalar: no-cut vs 06 max |dL4/L4| = 0.0e+00
    conformal: no-cut vs 06 max |dL4/L4| = 0.0e+00
    dirac: no-cut vs 06 max |dL4/L4| = 0.0e+00
-   dirac nocut   : R_cut(0) = 1.000; core M 1.02e+13-1.95e+17, L4 2.58e+11-4.04e+12
-   dirac cut0.1  : R_cut(0) = 0.516; core M 1.33e+13-6.81e+16, L4 3.91e+11-4.63e+12
-   dirac cut0.2  : R_cut(0) = 0.851; core M 1.02e+13-1.31e+17, L4 2.88e+11-4.23e+12
-   dirac cut0.46 : R_cut(0) = 0.996; core M 1.02e+13-1.95e+17, L4 2.59e+11-4.05e+12
+   dirac nocut   : R_cut(0) = 1.000; core M 8.99e+12-1.95e+17, L4 2.59e+11-4.21e+12
+   dirac cut0.1  : R_cut(0) = 0.522; core M 1.17e+13-6.81e+16, L4 3.90e+11-4.80e+12
+   dirac cut0.2  : R_cut(0) = 0.854; core M 1.02e+13-1.31e+17, L4 2.88e+11-4.28e+12
+   dirac cut0.46 : R_cut(0) = 0.996; core M 8.99e+12-1.95e+17, L4 2.60e+11-4.22e+12
    vector: no-cut vs 06 max |dL4/L4| = 0.0e+00
-alpha=0.005 nu=1.5: parton sqrt(s) q50 0.043, q90 0.103 M_P (wall scale q90 0.119); yield above 0.1: 0.11, 0.2: 0.00, 0.46: 0.00
+alpha=0.005 nu=1.5: parton sqrt(s) q50 0.043, q90 0.102 M_P (wall scale q90 0.120); yield above 0.1: 0.11, 0.2: 0.00, 0.46: 0.00
    scalar: no-cut vs 06 max |dL4/L4| = 0.0e+00
    conformal: no-cut vs 06 max |dL4/L4| = 0.0e+00
    dirac: no-cut vs 06 max |dL4/L4| = 0.0e+00
-   dirac nocut   : R_cut(0) = 1.000; core M 1.02e+13-8.85e+16, L4 3.39e+11-4.04e+12
-   dirac cut0.1  : R_cut(0) = 0.892; core M 1.02e+13-6.81e+16, L4 3.66e+11-4.17e+12
-   dirac cut0.2  : R_cut(0) = 0.996; core M 1.02e+13-8.85e+16, L4 3.40e+11-4.05e+12
-   dirac cut0.46 : R_cut(0) = 1.000; core M 1.02e+13-8.85e+16, L4 3.38e+11-4.04e+12
+   dirac nocut   : R_cut(0) = 1.000; core M 8.99e+12-8.85e+16, L4 3.40e+11-4.21e+12
+   dirac cut0.1  : R_cut(0) = 0.895; core M 8.99e+12-6.81e+16, L4 3.67e+11-4.35e+12
+   dirac cut0.2  : R_cut(0) = 0.995; core M 8.99e+12-8.85e+16, L4 3.41e+11-4.22e+12
+   dirac cut0.46 : R_cut(0) = 1.000; core M 8.99e+12-8.85e+16, L4 3.40e+11-4.21e+12
    vector: no-cut vs 06 max |dL4/L4| = 0.0e+00
-alpha=0.005 nu=2.0: parton sqrt(s) q50 0.024, q90 0.058 M_P (wall scale q90 0.067); yield above 0.1: 0.01, 0.2: 0.00, 0.46: 0.00
+alpha=0.005 nu=2.0: parton sqrt(s) q50 0.024, q90 0.057 M_P (wall scale q90 0.068); yield above 0.1: 0.01, 0.2: 0.00, 0.46: 0.00
    scalar: no-cut vs 06 max |dL4/L4| = 0.0e+00
    conformal: no-cut vs 06 max |dL4/L4| = 0.0e+00
    dirac: no-cut vs 06 max |dL4/L4| = 0.0e+00
-   dirac nocut   : R_cut(0) = 1.000; core M 1.02e+13-5.23e+16, L4 4.10e+11-4.04e+12
-   dirac cut0.1  : R_cut(0) = 0.991; core M 1.02e+13-4.59e+16, L4 4.13e+11-4.05e+12
-   dirac cut0.2  : R_cut(0) = 1.000; core M 1.02e+13-5.23e+16, L4 4.10e+11-4.04e+12
-   dirac cut0.46 : R_cut(0) = 1.000; core M 1.02e+13-5.23e+16, L4 4.10e+11-4.04e+12
+   dirac nocut   : R_cut(0) = 1.000; core M 8.99e+12-5.23e+16, L4 4.12e+11-4.21e+12
+   dirac cut0.1  : R_cut(0) = 0.991; core M 8.99e+12-4.59e+16, L4 4.14e+11-4.23e+12
+   dirac cut0.2  : R_cut(0) = 1.000; core M 8.99e+12-5.23e+16, L4 4.12e+11-4.21e+12
+   dirac cut0.46 : R_cut(0) = 1.000; core M 8.99e+12-5.23e+16, L4 4.12e+11-4.21e+12
    vector: no-cut vs 06 max |dL4/L4| = 0.0e+00
-alpha=0.005 nu=3.0: parton sqrt(s) q50 0.011, q90 0.026 M_P (wall scale q90 0.030); yield above 0.1: 0.00, 0.2: 0.00, 0.46: 0.00
+alpha=0.005 nu=3.0: parton sqrt(s) q50 0.011, q90 0.025 M_P (wall scale q90 0.030); yield above 0.1: 0.00, 0.2: 0.00, 0.46: 0.00
    scalar: no-cut vs 06 max |dL4/L4| = 0.0e+00
    conformal: no-cut vs 06 max |dL4/L4| = 0.0e+00
    dirac: no-cut vs 06 max |dL4/L4| = 0.0e+00
-   dirac nocut   : R_cut(0) = 1.000; core M 1.02e+13-2.09e+16, L4 5.37e+11-4.04e+12
-   dirac cut0.1  : R_cut(0) = 1.000; core M 1.02e+13-2.09e+16, L4 5.37e+11-4.04e+12
-   dirac cut0.2  : R_cut(0) = 1.000; core M 1.02e+13-2.09e+16, L4 5.37e+11-4.04e+12
-   dirac cut0.46 : R_cut(0) = 1.000; core M 1.02e+13-2.09e+16, L4 5.37e+11-4.04e+12
+   dirac nocut   : R_cut(0) = 1.000; core M 8.99e+12-2.09e+16, L4 5.39e+11-4.21e+12
+   dirac cut0.1  : R_cut(0) = 1.000; core M 8.99e+12-2.09e+16, L4 5.39e+11-4.21e+12
+   dirac cut0.2  : R_cut(0) = 1.000; core M 8.99e+12-2.09e+16, L4 5.39e+11-4.21e+12
+   dirac cut0.46 : R_cut(0) = 1.000; core M 8.99e+12-2.09e+16, L4 5.39e+11-4.21e+12
    vector: no-cut vs 06 max |dL4/L4| = 0.0e+00
-alpha=0.0005 nu=1.0: parton sqrt(s) q50 0.029, q90 0.069 M_P (wall scale q90 0.081); yield above 0.1: 0.02, 0.2: 0.00, 0.46: 0.00
+alpha=0.0005 nu=1.0: parton sqrt(s) q50 0.030, q90 0.071 M_P (wall scale q90 0.084); yield above 0.1: 0.03, 0.2: 0.00, 0.46: 0.00
    scalar: no-cut vs 06 max |dL4/L4| = 0.0e+00
    conformal: no-cut vs 06 max |dL4/L4| = 0.0e+00
    dirac: no-cut vs 06 max |dL4/L4| = 0.0e+00
-   dirac nocut   : R_cut(0) = 1.000; core M 1.52e+13-5.97e+16, L4 5.65e+11-5.16e+12
-   dirac cut0.1  : R_cut(0) = 0.976; core M 1.52e+13-5.23e+16, L4 5.74e+11-5.20e+12
-   dirac cut0.2  : R_cut(0) = 1.000; core M 1.52e+13-5.97e+16, L4 5.65e+11-5.16e+12
-   dirac cut0.46 : R_cut(0) = 1.000; core M 1.52e+13-5.97e+16, L4 5.65e+11-5.16e+12
+   dirac nocut   : R_cut(0) = 1.000; core M 1.52e+13-5.97e+16, L4 5.61e+11-5.23e+12
+   dirac cut0.1  : R_cut(0) = 0.972; core M 1.52e+13-5.97e+16, L4 5.72e+11-5.27e+12
+   dirac cut0.2  : R_cut(0) = 1.000; core M 1.52e+13-5.97e+16, L4 5.61e+11-5.23e+12
+   dirac cut0.46 : R_cut(0) = 1.000; core M 1.52e+13-5.97e+16, L4 5.61e+11-5.23e+12
    vector: no-cut vs 06 max |dL4/L4| = 0.0e+00
-alpha=0.0005 nu=1.5: parton sqrt(s) q50 0.013, q90 0.031 M_P (wall scale q90 0.036); yield above 0.1: 0.00, 0.2: 0.00, 0.46: 0.00
+alpha=0.0005 nu=1.5: parton sqrt(s) q50 0.013, q90 0.032 M_P (wall scale q90 0.037); yield above 0.1: 0.00, 0.2: 0.00, 0.46: 0.00
    scalar: no-cut vs 06 max |dL4/L4| = 0.0e+00
    conformal: no-cut vs 06 max |dL4/L4| = 0.0e+00
    dirac: no-cut vs 06 max |dL4/L4| = 0.0e+00
-   dirac nocut   : R_cut(0) = 1.000; core M 1.52e+13-2.71e+16, L4 7.41e+11-5.16e+12
-   dirac cut0.1  : R_cut(0) = 1.000; core M 1.52e+13-2.71e+16, L4 7.40e+11-5.16e+12
-   dirac cut0.2  : R_cut(0) = 1.000; core M 1.52e+13-2.71e+16, L4 7.40e+11-5.16e+12
-   dirac cut0.46 : R_cut(0) = 1.000; core M 1.52e+13-2.71e+16, L4 7.40e+11-5.16e+12
+   dirac nocut   : R_cut(0) = 1.000; core M 1.52e+13-2.71e+16, L4 7.35e+11-5.23e+12
+   dirac cut0.1  : R_cut(0) = 1.000; core M 1.52e+13-2.71e+16, L4 7.35e+11-5.23e+12
+   dirac cut0.2  : R_cut(0) = 1.000; core M 1.52e+13-2.71e+16, L4 7.35e+11-5.23e+12
+   dirac cut0.46 : R_cut(0) = 1.000; core M 1.52e+13-2.71e+16, L4 7.35e+11-5.23e+12
    vector: no-cut vs 06 max |dL4/L4| = 0.0e+00
-alpha=0.0005 nu=2.0: parton sqrt(s) q50 0.007, q90 0.017 M_P (wall scale q90 0.020); yield above 0.1: 0.00, 0.2: 0.00, 0.46: 0.00
+alpha=0.0005 nu=2.0: parton sqrt(s) q50 0.007, q90 0.018 M_P (wall scale q90 0.021); yield above 0.1: 0.00, 0.2: 0.00, 0.46: 0.00
    scalar: no-cut vs 06 max |dL4/L4| = 0.0e+00
    conformal: no-cut vs 06 max |dL4/L4| = 0.0e+00
    dirac: no-cut vs 06 max |dL4/L4| = 0.0e+00
-   dirac nocut   : R_cut(0) = 1.000; core M 1.52e+13-1.41e+16, L4 8.97e+11-5.16e+12
-   dirac cut0.1  : R_cut(0) = 1.000; core M 1.52e+13-1.41e+16, L4 8.96e+11-5.16e+12
-   dirac cut0.2  : R_cut(0) = 1.000; core M 1.52e+13-1.41e+16, L4 8.96e+11-5.16e+12
-   dirac cut0.46 : R_cut(0) = 1.000; core M 1.52e+13-1.41e+16, L4 8.96e+11-5.16e+12
+   dirac nocut   : R_cut(0) = 1.000; core M 1.52e+13-1.60e+16, L4 8.90e+11-5.23e+12
+   dirac cut0.1  : R_cut(0) = 1.000; core M 1.52e+13-1.60e+16, L4 8.90e+11-5.23e+12
+   dirac cut0.2  : R_cut(0) = 1.000; core M 1.52e+13-1.60e+16, L4 8.90e+11-5.23e+12
+   dirac cut0.46 : R_cut(0) = 1.000; core M 1.52e+13-1.60e+16, L4 8.90e+11-5.23e+12
    vector: no-cut vs 06 max |dL4/L4| = 0.0e+00
 alpha=0.0005 nu=3.0: parton sqrt(s) q50 0.003, q90 0.008 M_P (wall scale q90 0.009); yield above 0.1: 0.00, 0.2: 0.00, 0.46: 0.00
    scalar: no-cut vs 06 max |dL4/L4| = 0.0e+00
    conformal: no-cut vs 06 max |dL4/L4| = 0.0e+00
    dirac: no-cut vs 06 max |dL4/L4| = 0.0e+00
-   dirac nocut   : R_cut(0) = 1.000; core M 1.52e+13-6.40e+15, L4 1.17e+12-5.16e+12
-   dirac cut0.1  : R_cut(0) = 1.000; core M 1.52e+13-6.40e+15, L4 1.17e+12-5.16e+12
-   dirac cut0.2  : R_cut(0) = 1.000; core M 1.52e+13-6.40e+15, L4 1.17e+12-5.16e+12
-   dirac cut0.46 : R_cut(0) = 1.000; core M 1.52e+13-6.40e+15, L4 1.17e+12-5.16e+12
+   dirac nocut   : R_cut(0) = 1.000; core M 1.52e+13-6.40e+15, L4 1.17e+12-5.23e+12
+   dirac cut0.1  : R_cut(0) = 1.000; core M 1.52e+13-6.40e+15, L4 1.17e+12-5.23e+12
+   dirac cut0.2  : R_cut(0) = 1.000; core M 1.52e+13-6.40e+15, L4 1.17e+12-5.23e+12
+   dirac cut0.46 : R_cut(0) = 1.000; core M 1.52e+13-6.40e+15, L4 1.17e+12-5.23e+12
    vector: no-cut vs 06 max |dL4/L4| = 0.0e+00
