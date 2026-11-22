@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gravdm"
+version = "2.0.0"
+description = "Code and data for 'Superheavy gravitational dark matter from runaway bubble collisions'"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Cheng-Wei Chiang" }, { name = "Van Que Tran" }]
+# Pinned versions used for the paper: requirements.txt. Lower bounds below are what the code needs (np.trapezoid -> numpy >= 2.0).
+dependencies = ["numpy>=2.0", "scipy", "matplotlib", "pillow"]
+
+[project.optional-dependencies]
+test = ["pytest>=7", "sympy", "mpmath"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"

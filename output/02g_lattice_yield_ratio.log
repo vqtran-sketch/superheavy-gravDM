@@ -1,0 +1,54 @@
+gamma=10 mu=0.020: N_lat/N_par=0.8166 free/par=0.3595 hard-only=0.9960 spin2-only=0.8081 soft weight=0.537 grid/analytic=0.835
+gamma=10 mu=0.101: N_lat/N_par=0.9885 free/par=0.8373 hard-only=1.0346 spin2-only=0.8369 soft weight=0.479 grid/analytic=0.962
+gamma=10 mu=0.297: N_lat/N_par=1.1332 free/par=0.9751 hard-only=1.1162 spin2-only=1.0496 soft weight=0.092 grid/analytic=1.001
+gamma=10 mu=0.510: N_lat/N_par=1.0648 free/par=0.9778 hard-only=1.0648 spin2-only=1.0685 soft weight=0.002 grid/analytic=1.000
+gamma=10 mu=0.974: N_lat/N_par=0.9618 free/par=0.9536 hard-only=0.9618 spin2-only=0.9955 soft weight=0.000 grid/analytic=1.001
+gamma=10 mu=1.500: N_lat/N_par=0.8412 free/par=0.9221 hard-only=0.8412 spin2-only=0.8785 soft weight=0.000 grid/analytic=0.954
+gamma=80 mu=0.020: N_lat/N_par=0.9922 free/par=0.9886 hard-only=0.9948 spin2-only=0.9871 soft weight=0.074 grid/analytic=0.989
+gamma=80 mu=0.101: N_lat/N_par=1.0000 free/par=0.9981 hard-only=1.0000 spin2-only=0.9981 soft weight=0.006 grid/analytic=1.000
+gamma=80 mu=0.297: N_lat/N_par=0.9975 free/par=0.9997 hard-only=0.9975 spin2-only=0.9972 soft weight=0.000 grid/analytic=0.999
+gamma=80 mu=0.510: N_lat/N_par=0.9903 free/par=0.9997 hard-only=0.9903 spin2-only=0.9905 soft weight=0.000 grid/analytic=1.005
+gamma=80 mu=0.974: N_lat/N_par=0.9543 free/par=0.9993 hard-only=0.9543 spin2-only=0.9549 soft weight=0.000 grid/analytic=0.999
+gamma=80 mu=1.500: N_lat/N_par=0.8562 free/par=0.9987 hard-only=0.8562 spin2-only=0.8568 soft weight=0.000 grid/analytic=0.853
+gamma=160 mu=0.020: N_lat/N_par=0.9981 free/par=0.9971 hard-only=0.9983 spin2-only=0.9967 soft weight=0.028 grid/analytic=0.997
+gamma=160 mu=0.101: N_lat/N_par=0.9995 free/par=0.9995 hard-only=0.9995 spin2-only=0.9990 soft weight=0.000 grid/analytic=1.000
+gamma=160 mu=0.297: N_lat/N_par=0.9963 free/par=0.9999 hard-only=0.9963 spin2-only=0.9963 soft weight=0.000 grid/analytic=0.998
+gamma=160 mu=0.510: N_lat/N_par=0.9893 free/par=0.9999 hard-only=0.9893 spin2-only=0.9894 soft weight=0.000 grid/analytic=0.995
+gamma=160 mu=0.974: N_lat/N_par=0.9546 free/par=0.9998 hard-only=0.9546 spin2-only=0.9548 soft weight=0.000 grid/analytic=0.994
+gamma=160 mu=1.500: N_lat/N_par=0.8730 free/par=0.9997 hard-only=0.8730 spin2-only=0.8732 soft weight=0.000 grid/analytic=1.101
+gamma=10_n20 mu=0.020: N_lat/N_par=0.8159 free/par=0.3595 hard-only=0.9952 spin2-only=0.8074 soft weight=0.537 grid/analytic=0.835
+gamma=10_n20 mu=0.101: N_lat/N_par=0.9878 free/par=0.8373 hard-only=1.0338 spin2-only=0.8360 soft weight=0.479 grid/analytic=0.962
+gamma=10_n20 mu=0.297: N_lat/N_par=1.1289 free/par=0.9751 hard-only=1.1132 spin2-only=1.0453 soft weight=0.092 grid/analytic=1.001
+gamma=10_n20 mu=0.510: N_lat/N_par=1.0471 free/par=0.9778 hard-only=1.0473 spin2-only=1.0512 soft weight=0.002 grid/analytic=1.000
+gamma=10_n20 mu=0.974: N_lat/N_par=0.8767 free/par=0.9535 hard-only=0.8767 spin2-only=0.9096 soft weight=0.000 grid/analytic=1.001
+gamma=10_n20 mu=1.500: N_lat/N_par=0.6325 free/par=0.9220 hard-only=0.6325 spin2-only=0.6639 soft weight=0.000 grid/analytic=0.954
+gamma=80_n20 mu=0.020: N_lat/N_par=0.9921 free/par=0.9886 hard-only=0.9947 spin2-only=0.9870 soft weight=0.074 grid/analytic=0.989
+gamma=80_n20 mu=0.101: N_lat/N_par=0.9985 free/par=0.9981 hard-only=0.9986 spin2-only=0.9966 soft weight=0.006 grid/analytic=1.000
+gamma=80_n20 mu=0.297: N_lat/N_par=0.9864 free/par=0.9997 hard-only=0.9864 spin2-only=0.9861 soft weight=0.000 grid/analytic=0.999
+gamma=80_n20 mu=0.510: N_lat/N_par=0.9599 free/par=0.9997 hard-only=0.9599 spin2-only=0.9601 soft weight=0.000 grid/analytic=1.005
+gamma=80_n20 mu=0.974: N_lat/N_par=0.8377 free/par=0.9992 hard-only=0.8377 spin2-only=0.8383 soft weight=0.000 grid/analytic=0.999
+gamma=80_n20 mu=1.500: N_lat/N_par=0.5926 free/par=0.9986 hard-only=0.5926 spin2-only=0.5928 soft weight=0.000 grid/analytic=0.853
+gamma=160_n20 mu=0.020: N_lat/N_par=0.9980 free/par=0.9971 hard-only=0.9982 spin2-only=0.9966 soft weight=0.028 grid/analytic=0.997
+gamma=160_n20 mu=0.101: N_lat/N_par=0.9977 free/par=0.9995 hard-only=0.9977 spin2-only=0.9972 soft weight=0.000 grid/analytic=1.000
+gamma=160_n20 mu=0.297: N_lat/N_par=0.9849 free/par=0.9999 hard-only=0.9849 spin2-only=0.9849 soft weight=0.000 grid/analytic=0.998
+gamma=160_n20 mu=0.510: N_lat/N_par=0.9597 free/par=0.9999 hard-only=0.9597 spin2-only=0.9598 soft weight=0.000 grid/analytic=0.995
+gamma=160_n20 mu=0.974: N_lat/N_par=0.8577 free/par=0.9998 hard-only=0.8577 spin2-only=0.8578 soft weight=0.000 grid/analytic=0.994
+gamma=160_n20 mu=1.500: N_lat/N_par=0.7328 free/par=0.9996 hard-only=0.7328 spin2-only=0.7328 soft weight=0.000 grid/analytic=1.101
+gamma=10 mu=0.020: Richardson N_lat/N_par=0.8168 (n40 0.8166, n20 0.8159, ratio of deficits 1.00)
+gamma=10 mu=0.101: Richardson N_lat/N_par=0.9887 (n40 0.9885, n20 0.9878, ratio of deficits 1.06)
+gamma=10 mu=0.297: Richardson N_lat/N_par=1.1346 (n40 1.1332, n20 1.1289, ratio of deficits 0.97)
+gamma=10 mu=0.510: Richardson N_lat/N_par=1.0707 (n40 1.0648, n20 1.0471, ratio of deficits 0.73)
+gamma=10 mu=0.974: Richardson N_lat/N_par=0.9902 (n40 0.9618, n20 0.8767, ratio of deficits 3.23)
+gamma=10 mu=1.500: Richardson N_lat/N_par=0.9108 (n40 0.8412, n20 0.6325, ratio of deficits 2.31)
+gamma=80 mu=0.020: Richardson N_lat/N_par=0.9922 (n40 0.9922, n20 0.9921, ratio of deficits 1.01)
+gamma=80 mu=0.101: Richardson N_lat/N_par=1.0005 (n40 1.0000, n20 0.9985, ratio of deficits nan)
+gamma=80 mu=0.297: Richardson N_lat/N_par=1.0012 (n40 0.9975, n20 0.9864, ratio of deficits 5.43)
+gamma=80 mu=0.510: Richardson N_lat/N_par=1.0004 (n40 0.9903, n20 0.9599, ratio of deficits 4.13)
+gamma=80 mu=0.974: Richardson N_lat/N_par=0.9932 (n40 0.9543, n20 0.8377, ratio of deficits 3.55)
+gamma=80 mu=1.500: Richardson N_lat/N_par=0.9440 (n40 0.8562, n20 0.5926, ratio of deficits 2.83)
+gamma=160 mu=0.020: Richardson N_lat/N_par=0.9981 (n40 0.9981, n20 0.9980, ratio of deficits 1.07)
+gamma=160 mu=0.101: Richardson N_lat/N_par=1.0001 (n40 0.9995, n20 0.9977, ratio of deficits 4.61)
+gamma=160 mu=0.297: Richardson N_lat/N_par=1.0001 (n40 0.9963, n20 0.9849, ratio of deficits 4.11)
+gamma=160 mu=0.510: Richardson N_lat/N_par=0.9992 (n40 0.9893, n20 0.9597, ratio of deficits 3.78)
+gamma=160 mu=0.974: Richardson N_lat/N_par=0.9869 (n40 0.9546, n20 0.8577, ratio of deficits 3.14)
+gamma=160 mu=1.500: Richardson N_lat/N_par=0.9198 (n40 0.8730, n20 0.7328, ratio of deficits 2.10)

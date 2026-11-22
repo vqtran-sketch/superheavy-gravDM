@@ -1,0 +1,12 @@
+alpha=0.05 nu=1.0: yield-weighted median scale/M_P = 0.625, yield fraction above M_P/2 = 0.76 (NOT perturbative); 90% quantile 0.889 vs species cutoff 0.46
+alpha=0.05 nu=1.5: yield-weighted median scale/M_P = 0.278, yield fraction above M_P/2 = 0.01 (perturbative); 90% quantile 0.395 vs species cutoff 0.46
+alpha=0.05 nu=2.0: yield-weighted median scale/M_P = 0.156, yield fraction above M_P/2 = 0.00 (perturbative); 90% quantile 0.222 vs species cutoff 0.46
+alpha=0.05 nu=3.0: yield-weighted median scale/M_P = 0.069, yield fraction above M_P/2 = 0.00 (perturbative); 90% quantile 0.099 vs species cutoff 0.46
+alpha=0.005 nu=1.0: yield-weighted median scale/M_P = 0.200, yield fraction above M_P/2 = 0.00 (perturbative); 90% quantile 0.267 vs species cutoff 0.46
+alpha=0.005 nu=1.5: yield-weighted median scale/M_P = 0.089, yield fraction above M_P/2 = 0.00 (perturbative); 90% quantile 0.119 vs species cutoff 0.46
+alpha=0.005 nu=2.0: yield-weighted median scale/M_P = 0.050, yield fraction above M_P/2 = 0.00 (perturbative); 90% quantile 0.067 vs species cutoff 0.46
+alpha=0.005 nu=3.0: yield-weighted median scale/M_P = 0.022, yield fraction above M_P/2 = 0.00 (perturbative); 90% quantile 0.030 vs species cutoff 0.46
+alpha=0.0005 nu=1.0: yield-weighted median scale/M_P = 0.059, yield fraction above M_P/2 = 0.00 (perturbative); 90% quantile 0.081 vs species cutoff 0.46
+alpha=0.0005 nu=1.5: yield-weighted median scale/M_P = 0.026, yield fraction above M_P/2 = 0.00 (perturbative); 90% quantile 0.036 vs species cutoff 0.46
+alpha=0.0005 nu=2.0: yield-weighted median scale/M_P = 0.015, yield fraction above M_P/2 = 0.00 (perturbative); 90% quantile 0.020 vs species cutoff 0.46
+alpha=0.0005 nu=3.0: yield-weighted median scale/M_P = 0.007, yield fraction above M_P/2 = 0.00 (perturbative); 90% quantile 0.009 vs species cutoff 0.46

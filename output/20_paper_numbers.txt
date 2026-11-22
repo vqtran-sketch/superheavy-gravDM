@@ -1,0 +1,212 @@
+Window: FI <= 10% of collisions (f_coll >= 0.9091), R >= 0.1
+
+[SM Table SII] Dirac, n = 6:  M_X range | L^{1/4} range | f_peak range | M_min/T*
+  alpha=0.05    nu=1.5: M 5.31e+12-2.89e+17 | L4 1.59e+11-3.42e+12 | f 2.25e+04-4.85e+05 | M_min/T* 2.39
+      interpolated edges: M 5.11e+12-2.95e+17 GeV, M_min/T* 2.28
+  alpha=0.05    nu=2.0: M 5.31e+12-1.50e+17 | L4 1.93e+11-3.42e+12 | f 2.73e+04-4.85e+05 | M_min/T* 2.39
+      interpolated edges: M 5.11e+12-1.66e+17 GeV, M_min/T* 2.28
+  alpha=0.05    nu=3.0: M 5.31e+12-6.81e+16 | L4 2.52e+11-3.42e+12 | f 3.58e+04-4.85e+05 | M_min/T* 2.39
+      interpolated edges: M 5.11e+12-7.38e+16 GeV, M_min/T* 2.28
+  alpha=0.005   nu=1.0: M 8.99e+12-1.95e+17 | L4 2.59e+11-4.21e+12 | f 1.20e+05-1.94e+06 | M_min/T* 3.38
+      interpolated edges: M 8.46e+12-2.12e+17 GeV, M_min/T* 3.15
+  alpha=0.005   nu=2.0: M 8.99e+12-5.23e+16 | L4 4.12e+11-4.21e+12 | f 1.90e+05-1.94e+06 | M_min/T* 3.38
+      interpolated edges: M 8.46e+12-5.29e+16 GeV, M_min/T* 3.15
+  alpha=0.005   nu=3.0: M 8.99e+12-2.09e+16 | L4 5.39e+11-4.21e+12 | f 2.49e+05-1.94e+06 | M_min/T* 3.38
+      interpolated edges: M 8.46e+12-2.35e+16 GeV, M_min/T* 3.15
+  alpha=0.0005  nu=1.0: M 1.52e+13-5.97e+16 | L4 5.61e+11-5.23e+12 | f 8.21e+05-7.65e+06 | M_min/T* 4.63
+      interpolated edges: M 1.33e+13-6.56e+16 GeV, M_min/T* 3.96
+  alpha=0.0005  nu=2.0: M 1.52e+13-1.60e+16 | L4 8.90e+11-5.23e+12 | f 1.30e+06-7.65e+06 | M_min/T* 4.63
+      interpolated edges: M 1.33e+13-1.64e+16 GeV, M_min/T* 3.96
+  alpha=0.0005  nu=3.0: M 1.52e+13-6.40e+15 | L4 1.17e+12-5.23e+12 | f 1.71e+06-7.65e+06 | M_min/T* 4.63
+      interpolated edges: M 1.33e+13-7.27e+15 GeV, M_min/T* 3.96
+
+[Edgeless cases] (core contains the lowest scanned M_X; massless-limit collision share f_coll and FI/coll):
+  alpha=0.05 scalar: f_coll(M_min) = 0.9207, FI/coll = 0.086 (criterion 0.1)
+  lower edge alpha=0.05 dirac: 5.31e+12 GeV (grid), 5.11e+12 GeV (interpolated), M_min/T* 2.28
+  lower edge alpha=0.05 scalar: none in grid
+  lower edge alpha=0.05 conformal: 6.91e+12 GeV (grid), 6.56e+12 GeV (interpolated), M_min/T* 1.75
+  lower edge alpha=0.05 vector: 4.66e+12 GeV (grid), 4.64e+12 GeV (interpolated), M_min/T* 2.89
+  lower edge alpha=0.005 dirac: 8.99e+12 GeV (grid), 8.46e+12 GeV (interpolated), M_min/T* 3.15
+  lower edge alpha=0.005 scalar: 4.66e+12 GeV (grid), 4.28e+12 GeV (interpolated), M_min/T* 1.27
+  lower edge alpha=0.005 conformal: 1.17e+13 GeV (grid), 1.12e+13 GeV (interpolated), M_min/T* 2.51
+  lower edge alpha=0.005 vector: 7.88e+12 GeV (grid), 7.52e+12 GeV (interpolated), M_min/T* 3.89
+  lower edge alpha=0.0005 dirac: 1.52e+13 GeV (grid), 1.33e+13 GeV (interpolated), M_min/T* 3.96
+  lower edge alpha=0.0005 scalar: 8.99e+12 GeV (grid), 8.69e+12 GeV (interpolated), M_min/T* 2.24
+  lower edge alpha=0.0005 conformal: 1.98e+13 GeV (grid), 1.81e+13 GeV (interpolated), M_min/T* 3.29
+  lower edge alpha=0.0005 vector: 1.17e+13 GeV (grid), 1.17e+13 GeV (interpolated), M_min/T* 4.78
+  collision share, Dirac, alpha=0.05, M_X <= T*: 0.674-0.738
+
+[Envelope] all spins, nu >= 2, as computed (grid-limited if edgeless):
+  alpha=0.05: f_peak 1.74e+04-2.92e+06 Hz (nu >= 2, all spins)
+  alpha=0.005: f_peak 1.21e+05-3.23e+06 Hz (nu >= 2, all spins)
+  alpha=0.0005: f_peak 8.31e+05-1.27e+07 Hz (nu >= 2, all spins)
+  all alpha: M_X 2.44e+10-1.95e+17 GeV, L^1/4 1.23e+11-2.06e+13 GeV
+
+[Envelope] all spins, nu >= 2, edgeless cases cut at the Dirac edge:
+  alpha=0.05: f_peak 1.74e+04-8.07e+05 Hz (nu >= 2, all spins)
+  alpha=0.005: f_peak 1.21e+05-3.23e+06 Hz (nu >= 2, all spins)
+  alpha=0.0005: f_peak 8.31e+05-1.27e+07 Hz (nu >= 2, all spins)
+  all alpha: M_X 4.66e+12-1.95e+17 GeV, L^1/4 1.23e+11-8.66e+12 GeV
+
+[Lower edges, Dirac] M_X at FI = 10% (interpolated): alpha=0.05: 5.11e+12, alpha=0.005: 8.46e+12, alpha=0.0005: 1.33e+13
+  envelope nu >= 2, all spins (interpolated): lowest lower edge 4.28e+12, highest upper edge 2.03e+17 GeV
+
+[end of inflation, scalar, exp] (script 10)
+  y00.1_a0.05_nu3.0_scalar_Hmax: H_inf,max 8.78e+08-5.70e+14 GeV; M/H 27.7-155.2
+    (M_X >= Dirac edge) H_inf,max 7.38e+10-5.70e+14 GeV; M/H 72.0-155.2
+  y00.1_a0.05_nu1.5_scalar_Hmax: H_inf,max 8.78e+08-1.97e+15 GeV; M/H 27.7-167.1
+    (M_X >= Dirac edge) H_inf,max 7.38e+10-1.97e+15 GeV; M/H 72.0-167.1
+  y00.1_a0.0005_nu3.0_scalar_Hmax: H_inf,max 1.11e+11-6.00e+13 GeV; M/H 80.8-138.7
+  y00.1_a0.0005_nu1.0_scalar_Hmax: H_inf,max 1.11e+11-4.90e+14 GeV; M/H 80.8-158.4
+  y01.0_a0.05_nu3.0_scalar_Hmax: H_inf,max 5.15e+09-4.70e+15 GeV; M/H 4.7-18.8
+    (M_X >= Dirac edge) H_inf,max 5.48e+11-4.70e+15 GeV; M/H 9.7-18.8
+  y01.0_a0.05_nu1.5_scalar_Hmax: H_inf,max 5.15e+09-1.64e+16 GeV; M/H 4.7-20.1
+    (M_X >= Dirac edge) H_inf,max 5.48e+11-1.64e+16 GeV; M/H 9.7-20.1
+  y01.0_a0.0005_nu3.0_scalar_Hmax: H_inf,max 8.42e+11-4.89e+14 GeV; M/H 10.7-17.0
+  y01.0_a0.0005_nu1.0_scalar_Hmax: H_inf,max 8.42e+11-4.05e+15 GeV; M/H 10.7-19.2
+
+[end of inflation, scalar, power] (script 10)
+  y00.1_a0.05_nu3.0_scalar_Hmax: H_inf,max 7.12e+08-2.24e+12 GeV; M/H 34.2-39427.1
+    (M_X >= Dirac edge) H_inf,max 1.21e+10-2.24e+12 GeV; M/H 437.9-39427.1
+  y00.1_a0.05_nu1.5_scalar_Hmax: H_inf,max 7.12e+08-4.44e+12 GeV; M/H 34.2-74195.9
+    (M_X >= Dirac edge) H_inf,max 1.21e+10-4.44e+12 GeV; M/H 437.9-74195.9
+  y00.1_a0.0005_nu3.0_scalar_Hmax: H_inf,max 1.26e+10-5.09e+11 GeV; M/H 712.1-16344.1
+  y00.1_a0.0005_nu1.0_scalar_Hmax: H_inf,max 1.26e+10-1.66e+12 GeV; M/H 712.1-46883.9
+  y01.0_a0.05_nu3.0_scalar_Hmax: H_inf,max 4.96e+09-4.64e+14 GeV; M/H 4.9-190.7
+    (M_X >= Dirac edge) H_inf,max 2.88e+11-4.64e+14 GeV; M/H 18.4-190.7
+  y01.0_a0.05_nu1.5_scalar_Hmax: H_inf,max 4.96e+09-1.24e+15 GeV; M/H 4.9-264.9
+    (M_X >= Dirac edge) H_inf,max 2.88e+11-1.24e+15 GeV; M/H 18.4-264.9
+  y01.0_a0.0005_nu3.0_scalar_Hmax: H_inf,max 3.79e+11-6.89e+13 GeV; M/H 23.7-120.7
+  y01.0_a0.0005_nu1.0_scalar_Hmax: H_inf,max 3.79e+11-3.72e+14 GeV; M/H 23.7-208.7
+
+[end of inflation, Dirac/Proca] (script 14)
+  exp_y00.1_a0.05_nu3.0_dirac_Hmax: H_inf,max 7.64e+10-4.38e+14 GeV; M/H 69.6-155.4
+  exp_y00.1_a0.05_nu1.5_dirac_Hmax: H_inf,max 7.64e+10-1.71e+15 GeV; M/H 69.6-168.9
+  exp_y00.1_a0.0005_nu3.0_dirac_Hmax: H_inf,max 1.82e+11-4.64e+13 GeV; M/H 83.6-137.9
+  exp_y00.1_a0.0005_nu1.0_dirac_Hmax: H_inf,max 1.82e+11-3.76e+14 GeV; M/H 83.6-158.9
+  exp_y00.1_a0.05_nu3.0_vector_Hmax: H_inf,max 6.18e+10-5.23e+14 GeV; M/H 75.4-169.1
+  exp_y00.1_a0.05_nu1.5_vector_Hmax: H_inf,max 6.18e+10-1.81e+15 GeV; M/H 75.4-182.3
+  exp_y00.1_a0.0005_nu3.0_vector_Hmax: H_inf,max 1.32e+11-5.52e+13 GeV; M/H 88.9-150.7
+  exp_y00.1_a0.0005_nu1.0_vector_Hmax: H_inf,max 1.32e+11-4.49e+14 GeV; M/H 88.9-172.7
+  exp_y01.0_a0.05_nu3.0_dirac_Hmax: H_inf,max 5.95e+11-3.78e+15 GeV; M/H 8.9-18.0
+  exp_y01.0_a0.05_nu1.5_dirac_Hmax: H_inf,max 5.95e+11-1.49e+16 GeV; M/H 8.9-19.4
+  exp_y01.0_a0.0005_nu3.0_dirac_Hmax: H_inf,max 1.46e+12-3.96e+14 GeV; M/H 10.4-16.1
+  exp_y01.0_a0.0005_nu1.0_dirac_Hmax: H_inf,max 1.46e+12-3.25e+15 GeV; M/H 10.4-18.3
+  exp_y01.0_a0.05_nu3.0_vector_Hmax: H_inf,max 4.88e+11-4.56e+15 GeV; M/H 9.6-19.4
+  exp_y01.0_a0.05_nu1.5_vector_Hmax: H_inf,max 4.88e+11-1.58e+16 GeV; M/H 9.6-20.8
+  exp_y01.0_a0.0005_nu3.0_vector_Hmax: H_inf,max 1.06e+12-4.76e+14 GeV; M/H 11.0-17.5
+  exp_y01.0_a0.0005_nu1.0_vector_Hmax: H_inf,max 1.06e+12-3.92e+15 GeV; M/H 11.0-19.8
+  power_y00.1_a0.05_nu3.0_dirac_Hmax: H_inf,max 4.75e+10-4.14e+13 GeV; M/H 111.8-1644.6
+  power_y00.1_a0.05_nu1.5_dirac_Hmax: H_inf,max 4.75e+10-1.16e+14 GeV; M/H 111.8-2492.7
+  power_y00.1_a0.0005_nu3.0_dirac_Hmax: H_inf,max 8.69e+10-6.68e+12 GeV; M/H 175.0-957.5
+  power_y00.1_a0.0005_nu1.0_dirac_Hmax: H_inf,max 8.69e+10-3.26e+13 GeV; M/H 175.0-1828.8
+  power_y00.1_a0.05_nu3.0_vector_Hmax: H_inf,max 3.48e+10-3.61e+13 GeV; M/H 134.0-2449.4
+  power_y00.1_a0.05_nu1.5_vector_Hmax: H_inf,max 3.48e+10-8.98e+13 GeV; M/H 134.0-3665.0
+  power_y00.1_a0.0005_nu3.0_vector_Hmax: H_inf,max 5.69e+10-5.95e+12 GeV; M/H 205.4-1397.3
+  power_y00.1_a0.0005_nu1.0_vector_Hmax: H_inf,max 5.69e+10-2.84e+13 GeV; M/H 205.4-2735.3
+  power_y01.0_a0.05_nu3.0_dirac_Hmax: H_inf,max 5.82e+11-2.13e+15 GeV; M/H 9.1-32.0
+  power_y01.0_a0.05_nu1.5_dirac_Hmax: H_inf,max 5.82e+11-7.44e+15 GeV; M/H 9.1-38.8
+  power_y01.0_a0.0005_nu3.0_dirac_Hmax: H_inf,max 1.35e+12-2.57e+14 GeV; M/H 11.3-24.9
+  power_y01.0_a0.0005_nu1.0_dirac_Hmax: H_inf,max 1.35e+12-1.78e+15 GeV; M/H 11.3-33.6
+  power_y01.0_a0.05_nu3.0_vector_Hmax: H_inf,max 4.68e+11-2.28e+15 GeV; M/H 10.0-38.7
+  power_y01.0_a0.05_nu1.5_vector_Hmax: H_inf,max 4.68e+11-7.04e+15 GeV; M/H 10.0-46.8
+  power_y01.0_a0.0005_nu3.0_vector_Hmax: H_inf,max 9.61e+11-2.79e+14 GeV; M/H 12.2-29.8
+  power_y01.0_a0.0005_nu1.0_vector_Hmax: H_inf,max 9.61e+11-1.90e+15 GeV; M/H 12.2-40.8
+
+[friction] (script 07, minimal scalar lines)
+  a0.05_nu1.0_scalar_Hfric: H_inf < 6.59e+11-1.22e+14 GeV
+    (M_X >= Dirac edge) H_inf < 6.59e+11-2.07e+13 GeV
+  a0.05_nu3.0_scalar_Hfric: H_inf < 4.12e+12-3.65e+14 GeV
+    (M_X >= Dirac edge) H_inf < 4.12e+12-6.21e+13 GeV
+  a0.0005_nu1.0_scalar_Hfric: H_inf < 3.06e+12-3.64e+13 GeV
+  a0.0005_nu3.0_scalar_Hfric: H_inf < 1.91e+13-1.09e+14 GeV
+
+[Higgs trapping] (script 17)
+  a0.05_nu2.0_dirac_xi0.0_Hfluct: 1.04e+11-1.85e+12 GeV
+  a0.05_nu2.0_dirac_b0.1_HHM: 6.66e+10-1.18e+12 GeV
+  a0.05_nu2.0_dirac_b1.0_HHM: 1.18e+11-2.10e+12 GeV
+  a0.05_nu2.0_dirac_xi0.1_Hfluct: 7.22e+11-1.28e+13 GeV
+  a0.05_nu3.0_dirac_xi0.0_Hfluct: 2.05e+11-2.78e+12 GeV
+  a0.05_nu3.0_dirac_b0.1_HHM: 8.73e+10-1.18e+12 GeV
+  a0.05_nu3.0_dirac_b1.0_HHM: 1.55e+11-2.10e+12 GeV
+  a0.05_nu3.0_dirac_xi0.1_Hfluct: 1.42e+12-1.92e+13 GeV
+  a0.0005_nu2.0_dirac_xi0.0_Hfluct: 4.81e+11-2.83e+12 GeV
+  a0.0005_nu2.0_dirac_b0.1_HHM: 3.08e+11-1.81e+12 GeV
+  a0.0005_nu2.0_dirac_b1.0_HHM: 5.47e+11-3.22e+12 GeV
+  a0.0005_nu2.0_dirac_xi0.1_Hfluct: 3.34e+12-1.96e+13 GeV
+  a0.0005_nu3.0_dirac_xi0.0_Hfluct: 9.46e+11-4.24e+12 GeV
+  a0.0005_nu3.0_dirac_b0.1_HHM: 4.03e+11-1.81e+12 GeV
+  a0.0005_nu3.0_dirac_b1.0_HHM: 7.17e+11-3.22e+12 GeV
+  a0.0005_nu3.0_dirac_xi0.1_Hfluct: 6.55e+12-2.94e+13 GeV
+
+[freeze-in reference] Y_FI/(T_reh/M_P)^3 at M/T = 0, 1, 3, 10 (T_max = T_reh, xi_H = 0):
+  dirac    : 4.81e-05, 3.31e-05, 4.14e-06, 6.70e-11   [flat-space collisions/FI(0) = 141 chat (H/beta)]
+  scalar   : 8.58e-06, 4.61e-06, 4.15e-07, 8.69e-12   [flat-space collisions/FI(0) = 792 chat (H/beta)]
+  conformal: 8.02e-06, 4.07e-06, 2.80e-07, 2.21e-12   [flat-space collisions/FI(0) = 848 chat (H/beta)]
+  vector   : 1.05e-04, 1.02e-04, 2.69e-05, 1.35e-09   [flat-space collisions/FI(0) = 65 chat (H/beta)]
+
+[hard cut on parton sqrt(s)] (script 21): q50/q90 of sqrt(s)/M_P | yield fraction above cuts | Dirac core under each cut
+  alpha=0.05    nu=1.0: q50 0.300 q90 0.718 | above 0.88/0.68/0.28
+      nocut    M 5.31e+12-5.57e+17 (interpolated 5.11e+12-6.09e+17) L4 1.21e+11-3.42e+12
+      cut0.1   M 1.33e+13-2.71e+16 (interpolated 1.29e+13-2.83e+16) L4 4.38e+11-5.06e+12
+      cut0.2   M 8.99e+12-1.31e+17 (interpolated 8.80e+12-1.32e+17) L4 2.42e+11-4.20e+12
+      cut0.46  M 6.06e+12-3.29e+17 (interpolated 6.05e+12-3.50e+17) L4 1.51e+11-3.64e+12
+  alpha=0.05    nu=1.5: q50 0.133 q90 0.319 | above 0.63/0.29/0.03
+      nocut    M 5.31e+12-2.89e+17 (interpolated 5.11e+12-2.95e+17) L4 1.59e+11-3.42e+12
+      cut0.1   M 8.99e+12-6.81e+16 (interpolated 8.30e+12-6.88e+16) L4 2.93e+11-4.04e+12
+      cut0.2   M 6.91e+12-1.50e+17 (interpolated 6.10e+12-1.52e+17) L4 1.99e+11-3.55e+12
+      cut0.46  M 5.31e+12-2.53e+17 (interpolated 5.18e+12-2.72e+17) L4 1.62e+11-3.45e+12
+  alpha=0.05    nu=2.0: q50 0.075 q90 0.179 | above 0.35/0.07/0.00
+      nocut    M 5.31e+12-1.50e+17 (interpolated 5.11e+12-1.66e+17) L4 1.93e+11-3.42e+12
+      cut0.1   M 6.91e+12-6.81e+16 (interpolated 6.38e+12-7.61e+16) L4 2.54e+11-3.64e+12
+      cut0.2   M 5.31e+12-1.31e+17 (interpolated 5.31e+12-1.36e+17) L4 2.03e+11-3.49e+12
+      cut0.46  M 5.31e+12-1.50e+17 (interpolated 5.11e+12-1.65e+17) L4 1.93e+11-3.42e+12
+  alpha=0.05    nu=3.0: q50 0.033 q90 0.080 | above 0.05/0.00/0.00
+      nocut    M 5.31e+12-6.81e+16 (interpolated 5.11e+12-7.38e+16) L4 2.52e+11-3.42e+12
+      cut0.1   M 5.31e+12-5.97e+16 (interpolated 5.24e+12-6.43e+16) L4 2.61e+11-3.47e+12
+      cut0.2   M 5.31e+12-6.81e+16 (interpolated 5.11e+12-7.36e+16) L4 2.53e+11-3.42e+12
+      cut0.46  M 5.31e+12-6.81e+16 (interpolated 5.11e+12-7.38e+16) L4 2.52e+11-3.42e+12
+  alpha=0.005   nu=1.0: q50 0.096 q90 0.229 | above 0.48/0.15/0.00
+      nocut    M 8.99e+12-1.95e+17 (interpolated 8.46e+12-2.12e+17) L4 2.59e+11-4.21e+12
+      cut0.1   M 1.17e+13-6.81e+16 (interpolated 1.11e+13-7.44e+16) L4 3.90e+11-4.80e+12
+      cut0.2   M 1.02e+13-1.31e+17 (interpolated 9.01e+12-1.47e+17) L4 2.88e+11-4.28e+12
+      cut0.46  M 8.99e+12-1.95e+17 (interpolated 8.47e+12-2.09e+17) L4 2.60e+11-4.22e+12
+  alpha=0.005   nu=1.5: q50 0.043 q90 0.102 | above 0.11/0.00/0.00
+      nocut    M 8.99e+12-8.85e+16 (interpolated 8.46e+12-9.42e+16) L4 3.40e+11-4.21e+12
+      cut0.1   M 8.99e+12-6.81e+16 (interpolated 8.85e+12-7.12e+16) L4 3.67e+11-4.35e+12
+      cut0.2   M 8.99e+12-8.85e+16 (interpolated 8.47e+12-9.27e+16) L4 3.41e+11-4.22e+12
+      cut0.46  M 8.99e+12-8.85e+16 (interpolated 8.46e+12-9.42e+16) L4 3.40e+11-4.21e+12
+  alpha=0.005   nu=2.0: q50 0.024 q90 0.057 | above 0.01/0.00/0.00
+      nocut    M 8.99e+12-5.23e+16 (interpolated 8.46e+12-5.29e+16) L4 4.12e+11-4.21e+12
+      cut0.1   M 8.99e+12-4.59e+16 (interpolated 8.49e+12-5.13e+16) L4 4.14e+11-4.23e+12
+      cut0.2   M 8.99e+12-5.23e+16 (interpolated 8.46e+12-5.28e+16) L4 4.12e+11-4.21e+12
+      cut0.46  M 8.99e+12-5.23e+16 (interpolated 8.46e+12-5.29e+16) L4 4.12e+11-4.21e+12
+  alpha=0.005   nu=3.0: q50 0.011 q90 0.025 | above 0.00/0.00/0.00
+      nocut    M 8.99e+12-2.09e+16 (interpolated 8.46e+12-2.35e+16) L4 5.39e+11-4.21e+12
+      cut0.1   M 8.99e+12-2.09e+16 (interpolated 8.46e+12-2.35e+16) L4 5.39e+11-4.21e+12
+      cut0.2   M 8.99e+12-2.09e+16 (interpolated 8.46e+12-2.35e+16) L4 5.39e+11-4.21e+12
+      cut0.46  M 8.99e+12-2.09e+16 (interpolated 8.46e+12-2.35e+16) L4 5.39e+11-4.21e+12
+  alpha=0.0005  nu=1.0: q50 0.030 q90 0.071 | above 0.03/0.00/0.00
+      nocut    M 1.52e+13-5.97e+16 (interpolated 1.33e+13-6.56e+16) L4 5.61e+11-5.23e+12
+      cut0.1   M 1.52e+13-5.97e+16 (interpolated 1.35e+13-5.99e+16) L4 5.72e+11-5.27e+12
+      cut0.2   M 1.52e+13-5.97e+16 (interpolated 1.33e+13-6.55e+16) L4 5.61e+11-5.23e+12
+      cut0.46  M 1.52e+13-5.97e+16 (interpolated 1.33e+13-6.56e+16) L4 5.61e+11-5.23e+12
+  alpha=0.0005  nu=1.5: q50 0.013 q90 0.032 | above 0.00/0.00/0.00
+      nocut    M 1.52e+13-2.71e+16 (interpolated 1.33e+13-2.92e+16) L4 7.35e+11-5.23e+12
+      cut0.1   M 1.52e+13-2.71e+16 (interpolated 1.33e+13-2.91e+16) L4 7.35e+11-5.23e+12
+      cut0.2   M 1.52e+13-2.71e+16 (interpolated 1.33e+13-2.92e+16) L4 7.35e+11-5.23e+12
+      cut0.46  M 1.52e+13-2.71e+16 (interpolated 1.33e+13-2.92e+16) L4 7.35e+11-5.23e+12
+  alpha=0.0005  nu=2.0: q50 0.007 q90 0.018 | above 0.00/0.00/0.00
+      nocut    M 1.52e+13-1.60e+16 (interpolated 1.33e+13-1.64e+16) L4 8.90e+11-5.23e+12
+      cut0.1   M 1.52e+13-1.60e+16 (interpolated 1.33e+13-1.64e+16) L4 8.90e+11-5.23e+12
+      cut0.2   M 1.52e+13-1.60e+16 (interpolated 1.33e+13-1.64e+16) L4 8.90e+11-5.23e+12
+      cut0.46  M 1.52e+13-1.60e+16 (interpolated 1.33e+13-1.64e+16) L4 8.90e+11-5.23e+12
+  alpha=0.0005  nu=3.0: q50 0.003 q90 0.008 | above 0.00/0.00/0.00
+      nocut    M 1.52e+13-6.40e+15 (interpolated 1.33e+13-7.27e+15) L4 1.17e+12-5.23e+12
+      cut0.1   M 1.52e+13-6.40e+15 (interpolated 1.33e+13-7.27e+15) L4 1.17e+12-5.23e+12
+      cut0.2   M 1.52e+13-6.40e+15 (interpolated 1.33e+13-7.27e+15) L4 1.17e+12-5.23e+12
+      cut0.46  M 1.52e+13-6.40e+15 (interpolated 1.33e+13-7.27e+15) L4 1.17e+12-5.23e+12
+  envelope nu >= 2, all spins, nocut: M_X 2.44e+10-1.95e+17 GeV, L^1/4 1.23e+11-2.06e+13 GeV
+  envelope nu >= 2, all spins, cut0.1: M_X 2.44e+10-8.85e+16 GeV, L^1/4 1.61e+11-2.09e+13 GeV
+  envelope nu >= 2, all spins, cut0.2: M_X 2.44e+10-1.50e+17 GeV, L^1/4 1.29e+11-2.11e+13 GeV
+  envelope nu >= 2, all spins, cut0.46: M_X 2.44e+10-1.95e+17 GeV, L^1/4 1.23e+11-2.06e+13 GeV

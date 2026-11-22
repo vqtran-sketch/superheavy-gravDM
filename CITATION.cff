@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite the paper below."
+title: "gravdm: code and data for 'Superheavy gravitational dark matter from runaway bubble collisions'"
+authors:
+  - family-names: Chiang
+    given-names: Cheng-Wei
+    orcid: "https://orcid.org/0000-0003-1716-0169"
+  - family-names: Tran
+    given-names: Van Que
+    orcid: "https://orcid.org/0000-0003-4643-4050"
+license: MIT
+version: 2.0.0
+preferred-citation:
+  type: article
+  title: "Superheavy gravitational dark matter from runaway bubble collisions"
+  authors:
+    - family-names: Chiang
+      given-names: Cheng-Wei
+    - family-names: Tran
+      given-names: Van Que
+  year: 2026
+  notes: "arXiv number to be added on submission."

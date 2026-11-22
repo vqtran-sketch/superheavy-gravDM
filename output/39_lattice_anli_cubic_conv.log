@@ -1,0 +1,12 @@
+S39.2_nu3 g0=10 R=0.932 gamma_c=26.7 | (a,b)=(0.4,0.4) gamma_c m: measured-F I2 1.077 I0 1.408 (last snapshot I2 1.165) | tanh@gamma_c I2 1.520 | method check I2 1.003 I0 1.038
+S39.2_nu3 g0=10 R=0.932 gamma_c=26.7 | (a,b)=(0.6,0.6) gamma_c m: measured-F I2 1.177 I0 1.440 (last snapshot I2 1.362) | tanh@gamma_c I2 0.325 | method check I2 1.010 I0 1.012
+S39.2_nu3 g0=10 R=0.932 gamma_c=26.7 | (a,b)=(0.8,0.8) gamma_c m: measured-F I2 1.166 I0 1.382 (last snapshot I2 1.482) | tanh@gamma_c I2 0.055 | method check I2 1.009 I0 1.001
+S39.2_nu3 g0=10 R=0.932 gamma_c=26.7 | (a,b)=(0.4,0.8) gamma_c m: measured-F I2 1.137 I0 1.423 (last snapshot I2 1.333) | tanh@gamma_c I2 0.292 | method check I2 1.010 I0 1.014
+   false vacuum max|phi+v| between walls at t_col/2, t_col-2, t_col-1: [0.0097 0.0081 0.008 ]; E_end/E_0 = 1.000000; N = 32004
+   wall time 63 s
+S39.2_nu3 g0=20 R=0.932 gamma_c=36.8 | (a,b)=(0.4,0.4) gamma_c m: measured-F I2 1.027 I0 1.129 (last snapshot I2 1.087) | tanh@gamma_c I2 1.397 | method check I2 1.002 I0 1.019
+S39.2_nu3 g0=20 R=0.932 gamma_c=36.8 | (a,b)=(0.6,0.6) gamma_c m: measured-F I2 1.052 I0 1.099 (last snapshot I2 1.153) | tanh@gamma_c I2 0.402 | method check I2 1.005 I0 1.006
+S39.2_nu3 g0=20 R=0.932 gamma_c=36.8 | (a,b)=(0.8,0.8) gamma_c m: measured-F I2 1.057 I0 1.078 (last snapshot I2 1.197) | tanh@gamma_c I2 0.089 | method check I2 1.005 I0 1.000
+S39.2_nu3 g0=20 R=0.932 gamma_c=36.8 | (a,b)=(0.4,0.8) gamma_c m: measured-F I2 1.052 I0 1.107 (last snapshot I2 1.152) | tanh@gamma_c I2 0.355 | method check I2 1.005 I0 1.007
+   false vacuum max|phi+v| between walls at t_col/2, t_col-2, t_col-1: [0.0001 0.0001 0.0001]; E_end/E_0 = 1.000000; N = 44366
+   wall time 121 s

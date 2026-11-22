@@ -1,0 +1,33 @@
+--- resolution PTS = 20
+g0=10 R=0.4 dV=0.100: t_col=17.96 gamma_c(thin)=17.16 gamma_P=17.16 gamma_F(base)=[nan 18.017 14.729 nan] pts=35 N=10468 wall 23 s
+   targets (a,b)/gamma_c = [(0.4, 0.4), (0.6, 0.6), (0.8, 0.8), (0.4, 0.8)]
+   [base ] lattice/measured-F parton: I2 1.006 1.008 0.999 1.010 | I0 1.037 1.014 1.006 1.016 | last snap I2 1.039 1.056 1.056 1.055 | method (dV=0 at gamma_c) I2 0.999 0.998 0.998 0.998 I0 1.007 1.008 1.010 1.009
+   [close] lattice/measured-F parton: I2 1.004 1.007 1.002 1.010 | I0 1.034 1.012 1.009 1.017 | last snap I2 1.031 1.045 1.046 1.046 | method (dV=0 at gamma_c) I2 0.999 0.998 0.998 0.998 I0 1.007 1.008 1.010 1.009
+   [far  ] lattice/measured-F parton: I2 1.004 1.009 1.000 1.009 | I0 1.035 1.014 1.007 1.016 | last snap I2 1.074 1.106 1.117 1.104 | method (dV=0 at gamma_c) I2 0.999 0.998 0.998 0.998 I0 1.007 1.008 1.011 1.009
+   lattice/analytic-sextic parton at gamma_c: I2 1.866 1.104 0.586 1.053 I0 1.923 1.110 0.590 1.060 | method run (dV=0, gamma_c) vs analytic: I2 1.037 1.030 1.014 1.025 I0 1.045 1.040 1.027 1.036
+   false vacuum max|phi - v| between walls at t_col/2, t_col-2, t_col-1: 0.000 0.000 0.000; half-gap at last snapshot 0.367/m (expected ~0.4); energy drift 9.6e-05 (method run 1.3e-04)
+--- resolution PTS = 40
+g0=10 R=0.4 dV=0.100: t_col=17.96 gamma_c(thin)=17.16 gamma_P=17.16 gamma_F(base)=[nan 18.002 14.743 nan] pts=69 N=20638 wall 54 s
+   targets (a,b)/gamma_c = [(0.4, 0.4), (0.6, 0.6), (0.8, 0.8), (0.4, 0.8)]
+   [base ] lattice/measured-F parton: I2 1.006 1.009 0.999 1.010 | I0 1.037 1.014 1.006 1.017 | last snap I2 1.039 1.056 1.056 1.055 | method (dV=0 at gamma_c) I2 0.999 0.998 0.998 0.998 I0 1.007 1.009 1.011 1.009
+   [close] lattice/measured-F parton: I2 1.004 1.008 1.002 1.011 | I0 1.034 1.013 1.009 1.017 | last snap I2 1.031 1.046 1.047 1.047 | method (dV=0 at gamma_c) I2 0.999 0.998 0.998 0.998 I0 1.007 1.009 1.011 1.009
+   [far  ] lattice/measured-F parton: I2 1.004 1.009 1.000 1.010 | I0 1.035 1.014 1.007 1.016 | last snap I2 1.074 1.106 1.118 1.104 | method (dV=0 at gamma_c) I2 0.999 0.998 0.998 0.998 I0 1.007 1.009 1.011 1.009
+   lattice/analytic-sextic parton at gamma_c: I2 1.858 1.103 0.589 1.054 I0 1.915 1.109 0.593 1.061 | method run (dV=0, gamma_c) vs analytic: I2 1.009 1.007 1.003 1.005 I0 1.017 1.017 1.015 1.016
+   false vacuum max|phi - v| between walls at t_col/2, t_col-2, t_col-1: 0.000 0.000 0.000; half-gap at last snapshot 0.368/m (expected ~0.4); energy drift 2.5e-05 (method run 3.6e-05)
+--- resolution PTS = 20
+g0=20 R=0.4 dV=0.100: t_col=17.99 gamma_c(thin)=27.19 gamma_P=27.19 gamma_F(base)=[55.884 28.037 24.712 56.106] pts=28 N=16788 wall 37 s
+   targets (a,b)/gamma_c = [(0.4, 0.4), (0.6, 0.6), (0.8, 0.8), (0.4, 0.8)]
+   [base ] lattice/measured-F parton: I2 1.003 1.001 0.998 1.001 | I0 1.011 1.005 1.005 1.006 | last snap I2 1.023 1.025 1.025 1.025 | method (dV=0 at gamma_c) I2 1.000 0.999 0.999 0.999 I0 1.003 1.003 1.004 1.003
+   [close] lattice/measured-F parton: I2 1.003 1.001 0.998 1.001 | I0 1.011 1.005 1.005 1.005 | last snap I2 1.019 1.020 1.019 1.020 | method (dV=0 at gamma_c) I2 1.000 0.999 0.999 0.999 I0 1.003 1.003 1.004 1.003
+   [far  ] lattice/measured-F parton: I2 1.002 1.002 0.999 1.002 | I0 1.010 1.006 1.006 1.006 | last snap I2 1.044 1.050 1.053 1.049 | method (dV=0 at gamma_c) I2 1.000 0.999 0.999 0.999 I0 1.003 1.003 1.004 1.003
+   lattice/analytic-sextic parton at gamma_c: I2 1.463 1.061 0.726 1.031 I0 1.475 1.066 0.731 1.036 | method run (dV=0, gamma_c) vs analytic: I2 1.041 1.031 1.012 1.026 I0 1.044 1.035 1.018 1.031
+   false vacuum max|phi - v| between walls at t_col/2, t_col-2, t_col-1: 0.000 0.000 0.000; half-gap at last snapshot 0.387/m (expected ~0.4); energy drift 9.5e-05 (method run 1.2e-04)
+--- resolution PTS = 40
+g0=20 R=0.4 dV=0.100: t_col=17.99 gamma_c(thin)=27.19 gamma_P=27.19 gamma_F(base)=[54.275 27.974 24.727 54.476] pts=55 N=32976 wall 99 s
+   targets (a,b)/gamma_c = [(0.4, 0.4), (0.6, 0.6), (0.8, 0.8), (0.4, 0.8)]
+   [base ] lattice/measured-F parton: I2 1.003 1.001 0.998 1.001 | I0 1.011 1.006 1.006 1.006 | last snap I2 1.023 1.025 1.025 1.025 | method (dV=0 at gamma_c) I2 1.000 0.999 0.999 0.999 I0 1.003 1.003 1.004 1.003
+   [close] lattice/measured-F parton: I2 1.003 1.001 0.998 1.001 | I0 1.011 1.006 1.005 1.006 | last snap I2 1.019 1.021 1.020 1.020 | method (dV=0 at gamma_c) I2 1.000 0.999 0.999 0.999 I0 1.003 1.003 1.004 1.003
+   [far  ] lattice/measured-F parton: I2 1.002 1.002 1.000 1.002 | I0 1.011 1.006 1.007 1.006 | last snap I2 1.044 1.050 1.053 1.049 | method (dV=0 at gamma_c) I2 1.000 0.999 0.999 0.999 I0 1.003 1.003 1.004 1.004
+   lattice/analytic-sextic parton at gamma_c: I2 1.453 1.057 0.728 1.029 I0 1.464 1.062 0.733 1.033 | method run (dV=0, gamma_c) vs analytic: I2 1.010 1.008 1.003 1.006 I0 1.013 1.012 1.008 1.011
+   false vacuum max|phi - v| between walls at t_col/2, t_col-2, t_col-1: 0.000 0.000 0.000; half-gap at last snapshot 0.389/m (expected ~0.4); energy drift 2.6e-05 (method run 3.6e-05)
+total wall time 212 s

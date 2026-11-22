@@ -1,0 +1,56 @@
+h=0.1: background iters=15 err=7.7e-12 c_hat=1.0697 a(end)=2.442 f(end)=0.0e+00
+h=0.03: background iters=10 err=1.9e-12 c_hat=0.9630 a(end)=1.412 f(end)=0.0e+00
+h=0.01: background iters=7 err=5.6e-12 c_hat=0.9808 a(end)=1.139 f(end)=0.0e+00
+exact bubble density n_exp: h=0.0: 0.03979, h=0.1: 0.06969, h=0.03: 0.04591, h=0.01: 0.04162 (flat 1/(8 pi) = 0.03979)
+seed 1 h=0.1: Q_flat=0.3938 Q_exp=0.2366 c_hat=1.0697 ratio=0.5713
+seed 1 h=0.03: Q_flat=0.3938 Q_exp=0.3280 c_hat=0.9630 ratio=0.8569
+seed 1 h=0.01: Q_flat=0.3938 Q_exp=0.3508 c_hat=0.9808 ratio=0.9038
+seed 2 h=0.1: Q_flat=0.3060 Q_exp=0.2436 c_hat=1.0697 ratio=0.7568
+seed 2 h=0.03: Q_flat=0.3060 Q_exp=0.2658 c_hat=0.9630 ratio=0.8935
+seed 2 h=0.01: Q_flat=0.3060 Q_exp=0.2897 c_hat=0.9808 ratio=0.9605
+seed 3 h=0.1: Q_flat=0.3235 Q_exp=0.2411 c_hat=1.0697 ratio=0.7087
+seed 3 h=0.03: Q_flat=0.3235 Q_exp=0.2693 c_hat=0.9630 ratio=0.8563
+seed 3 h=0.01: Q_flat=0.3235 Q_exp=0.3025 c_hat=0.9808 ratio=0.9490
+seed 4 h=0.1: Q_flat=0.3787 Q_exp=0.2261 c_hat=1.0697 ratio=0.5677
+seed 4 h=0.03: Q_flat=0.3787 Q_exp=0.3207 c_hat=0.9630 ratio=0.8712
+seed 4 h=0.01: Q_flat=0.3787 Q_exp=0.3749 c_hat=0.9808 ratio=1.0045
+seed 5 h=0.1: Q_flat=0.3190 Q_exp=0.2107 c_hat=1.0697 ratio=0.6280
+seed 5 h=0.03: Q_flat=0.3190 Q_exp=0.2671 c_hat=0.9630 ratio=0.8612
+seed 5 h=0.01: Q_flat=0.3190 Q_exp=0.2943 c_hat=0.9808 ratio=0.9358
+seed 6 h=0.1: Q_flat=0.3197 Q_exp=0.2321 c_hat=1.0697 ratio=0.6902
+seed 6 h=0.03: Q_flat=0.3197 Q_exp=0.2693 c_hat=0.9630 ratio=0.8665
+seed 6 h=0.01: Q_flat=0.3197 Q_exp=0.2879 c_hat=0.9808 ratio=0.9136
+seed 7 h=0.1: Q_flat=0.3253 Q_exp=0.2364 c_hat=1.0697 ratio=0.6910
+seed 7 h=0.03: Q_flat=0.3253 Q_exp=0.2771 c_hat=0.9630 ratio=0.8764
+seed 7 h=0.01: Q_flat=0.3253 Q_exp=0.3087 c_hat=0.9808 ratio=0.9629
+seed 8 h=0.1: Q_flat=0.3127 Q_exp=0.2406 c_hat=1.0697 ratio=0.7313
+seed 8 h=0.03: Q_flat=0.3127 Q_exp=0.2817 c_hat=0.9630 ratio=0.9265
+seed 8 h=0.01: Q_flat=0.3127 Q_exp=0.2964 c_hat=0.9808 ratio=0.9614
+seed 9 h=0.1: Q_flat=0.3483 Q_exp=0.2493 c_hat=1.0697 ratio=0.6806
+seed 9 h=0.03: Q_flat=0.3483 Q_exp=0.2935 c_hat=0.9630 ratio=0.8670
+seed 9 h=0.01: Q_flat=0.3483 Q_exp=0.3310 c_hat=0.9808 ratio=0.9642
+seed 10 h=0.1: Q_flat=0.3285 Q_exp=0.2397 c_hat=1.0697 ratio=0.6939
+seed 10 h=0.03: Q_flat=0.3285 Q_exp=0.2804 c_hat=0.9630 ratio=0.8783
+seed 10 h=0.01: Q_flat=0.3285 Q_exp=0.3074 c_hat=0.9808 ratio=0.9497
+seed 11 h=0.1: Q_flat=0.3102 Q_exp=0.2249 c_hat=1.0697 ratio=0.6894
+seed 11 h=0.03: Q_flat=0.3102 Q_exp=0.2726 c_hat=0.9630 ratio=0.9041
+seed 11 h=0.01: Q_flat=0.3102 Q_exp=0.2762 c_hat=0.9808 ratio=0.9037
+seed 12 h=0.1: Q_flat=0.3750 Q_exp=0.2311 c_hat=1.0697 ratio=0.5860
+seed 12 h=0.03: Q_flat=0.3750 Q_exp=0.3083 c_hat=0.9630 ratio=0.8457
+seed 12 h=0.01: Q_flat=0.3750 Q_exp=0.3521 c_hat=0.9808 ratio=0.9527
+seed 13 h=0.1: Q_flat=0.3166 Q_exp=0.2452 c_hat=1.0697 ratio=0.7364
+seed 13 h=0.03: Q_flat=0.3166 Q_exp=0.2807 c_hat=0.9630 ratio=0.9122
+seed 13 h=0.01: Q_flat=0.3166 Q_exp=0.3025 c_hat=0.9808 ratio=0.9694
+seed 14 h=0.1: Q_flat=0.3995 Q_exp=0.1997 c_hat=1.0697 ratio=0.4752
+seed 14 h=0.03: Q_flat=0.3995 Q_exp=0.3120 c_hat=0.9630 ratio=0.8034
+seed 14 h=0.01: Q_flat=0.3995 Q_exp=0.3631 c_hat=0.9808 ratio=0.9223
+seed 15 h=0.1: Q_flat=0.2945 Q_exp=0.2361 c_hat=1.0697 ratio=0.7624
+seed 15 h=0.03: Q_flat=0.2945 Q_exp=0.2633 c_hat=0.9630 ratio=0.9198
+seed 15 h=0.01: Q_flat=0.2945 Q_exp=0.2782 c_hat=0.9808 ratio=0.9585
+seed 16 h=0.1: Q_flat=0.3520 Q_exp=0.2305 c_hat=1.0697 ratio=0.6226
+seed 16 h=0.03: Q_flat=0.3520 Q_exp=0.2853 c_hat=0.9630 ratio=0.8336
+seed 16 h=0.01: Q_flat=0.3520 Q_exp=0.3243 c_hat=0.9808 ratio=0.9348
+FLAT check: Q_beta(cv) = 0.3299 +- 0.0030 (exact 1/3), raw 0.3377 +- 0.0082
+RESULT h=0.1: Q_exp(cv) = 0.2350 +- 0.0025; c_hat = 1.0697; Y_exp/Y_flat = 0.670 +- 0.007 (vs exact 1/3), 0.677 +- 0.010 (vs flat MC); 4h = 0.400
+RESULT h=0.03: Q_exp(cv) = 0.2810 +- 0.0032; c_hat = 0.9630; Y_exp/Y_flat = 0.867 +- 0.010 (vs exact 1/3), 0.876 +- 0.013 (vs flat MC); 4h = 0.120
+RESULT h=0.01: Q_exp(cv) = 0.3079 +- 0.0041; c_hat = 0.9808; Y_exp/Y_flat = 0.937 +- 0.013 (vs exact 1/3), 0.947 +- 0.015 (vs flat MC); 4h = 0.040

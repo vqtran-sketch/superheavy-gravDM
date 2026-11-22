@@ -1,0 +1,9 @@
+H/beta=0.1 nu=2: core M = 1.20e+10-2.55e+17 GeV, M/H_inf required 12.9-44.3; CMB bound alone suffices above M = 1.64e+15 GeV
+H/beta=0.1 nu=3: core M = 1.20e+10-1.27e+17 GeV, M/H_inf required 12.9-43.0; CMB bound alone suffices above M = 1.64e+15 GeV
+H/beta=0.03 nu=2: core M = 3.41e+12-8.98e+16 GeV, M/H_inf required 24.0-42.9; CMB bound alone suffices above M = 1.79e+15 GeV
+H/beta=0.03 nu=3: core M = 3.41e+12-3.76e+16 GeV, M/H_inf required 24.0-41.3; CMB bound alone suffices above M = 1.79e+15 GeV
+H/beta=0.01 nu=2: core M = 6.28e+12-2.90e+16 GeV, M/H_inf required 25.5-41.3; CMB bound alone suffices above M = 1.79e+15 GeV
+H/beta=0.01 nu=3: core M = 6.28e+12-1.33e+16 GeV, M/H_inf required 25.5-39.9; CMB bound alone suffices above M = 1.79e+15 GeV
+all cores: M/H_inf required 13-44; CMB alone suffices above 1.6e+15-1.8e+15 GeV
+check point M = 1e+13, T_reh = 1e+12 GeV: M/H_inf >= 25.6
+H_inf_max = 4.70e+13 GeV

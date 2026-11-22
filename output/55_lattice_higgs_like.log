@@ -1,0 +1,8 @@
+dV/(sigma m) = 0: N = 38800, energy drift 4.6e-05, run 78 s
+  first collision at t_c = 24.1/m; phi(x=0) after crossing: min -1.004, max -0.996 (v = 1)
+  right-wall position after crossing: max 139.10/m at t = 164.0/m, final 139.10/m at t = 164.0/m
+  free-passage reference at gamma_c = 10.00; lattice/free-passage at p_R = p_L = [np.float64(4.0), np.float64(8.0), np.float64(16.0)] m: I2 [1.035 1.049 0.917], I0 [1.034 1.048 0.922]
+dV/(sigma m) = 0.16: N = 38800, energy drift 4.8e-05, run 78 s
+  first collision at t_c = 24.1/m; phi(x=0) after crossing: min -1.007, max -0.990 (v = 1)
+  right-wall position after crossing: max 79.89/m at t = 110.0/m, final 30.76/m at t = 164.0/m
+  free-passage reference at gamma_c = 13.86; lattice/free-passage at p_R = p_L = [np.float64(4.0), np.float64(8.0), np.float64(16.0)] m: I2 [1.194 1.319 0.587], I0 [1.188 1.314 0.598]

@@ -1,0 +1,11 @@
+Units m = v = 1: lam = 0.5, sigma = 0.25. Kink-spectrum check |F_num/F_analytic - 1| max = 1.2e-12 at q = [0.4, 0.8, 1.6, 3.2]
+R = 0: dV = 0.0000; barrier top phi = 0.5774 v, V_top = 0.0741, V(v) = 0.0000, V_top - V(v) = 0.0741 (inf x V(v)); m_f^2 (inside) = 4.000 m^2 -> metastable
+R = 0.16: dV = 0.0400; barrier top phi = 0.6299 v, V_top = 0.0861, V(v) = 0.0400, V_top - V(v) = 0.0461 (1.152 x V(v)); m_f^2 (inside) = 3.040 m^2 -> metastable
+R = 0.4: dV = 0.1000; barrier top phi = 0.7454 v, V_top = 0.1132, V(v) = 0.1000, V_top - V(v) = 0.0132 (0.132 x V(v)); m_f^2 (inside) = 1.600 m^2 -> metastable
+g0=10 R=0.4 dV=0.100: t_col=17.96 gamma_c(thin)=17.16 gamma_P=17.16 gamma_F(base)=[nan 18.017 14.729 nan] pts=35 N=10468 wall 22 s
+   targets (a,b)/gamma_c = [(0.4, 0.4), (0.6, 0.6), (0.8, 0.8), (0.4, 0.8)]
+   [base ] lattice/measured-F parton: I2 1.006 1.008 0.999 1.010 | I0 1.037 1.014 1.006 1.016 | last snap I2 1.039 1.056 1.056 1.055 | method (dV=0 at gamma_c) I2 0.999 0.998 0.998 0.998 I0 1.007 1.008 1.010 1.009
+   [close] lattice/measured-F parton: I2 1.004 1.007 1.002 1.010 | I0 1.034 1.012 1.009 1.017 | last snap I2 1.031 1.045 1.046 1.046 | method (dV=0 at gamma_c) I2 0.999 0.998 0.998 0.998 I0 1.007 1.008 1.010 1.009
+   [far  ] lattice/measured-F parton: I2 1.004 1.009 1.000 1.009 | I0 1.035 1.014 1.007 1.016 | last snap I2 1.074 1.106 1.117 1.104 | method (dV=0 at gamma_c) I2 0.999 0.998 0.998 0.998 I0 1.007 1.008 1.011 1.009
+   lattice/analytic-sextic parton at gamma_c: I2 1.866 1.104 0.586 1.053 I0 1.923 1.110 0.590 1.060 | method run (dV=0, gamma_c) vs analytic: I2 1.037 1.030 1.014 1.025 I0 1.045 1.040 1.027 1.036
+   false vacuum max|phi - v| between walls at t_col/2, t_col-2, t_col-1: 0.000 0.000 0.000; half-gap at last snapshot 0.367/m (expected ~0.4); energy drift 9.6e-05 (method run 1.3e-04)

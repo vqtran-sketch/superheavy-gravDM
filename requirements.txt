@@ -1,0 +1,9 @@
+# Pinned versions used to produce the paper's results (from output/env.txt, the full `pip freeze` of that environment, Python 3.13).
+# Only the packages imported by src/, scripts/ and tests/ are listed; pip resolves their dependencies.
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+pillow==13.0.0        # scripts/compute/51_digitize_anli_fig3.py only
+pytest==9.1.1         # tests
+sympy==1.14.0         # tests/test_parton.py (one test)
+mpmath==1.3.0         # dependency of sympy

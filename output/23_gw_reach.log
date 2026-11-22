@@ -1,0 +1,29 @@
+
+alpha=0.05: Omega_peak=2.50e-08; int dlnf Omega=2.91e-08; DeltaNeff=5.2e-03
+ nu=2.0 scalar lowest fp=2.51e+04 Hz (M=8.9e+16, L4=1.8e+11): SNR 1yr ET=0.086 CE=0.43; 10yr CE=1.35; 10yr CE with S_max shift (fp=1.5e+04)=4.77; Omega_peak/QL channel=3.1e+05 photon=3.2e+02 linear=1.8e+00
+ nu=2.0 dirac  lowest fp=2.73e+04 Hz (M=6.8e+16, L4=1.9e+11): SNR 1yr ET=0.070 CE=0.34; 10yr CE=1.08; 10yr CE with S_max shift (fp=1.7e+04)=3.85; Omega_peak/QL channel=2.2e+05 photon=2.3e+02 linear=1.3e+00
+ nu=2.0 vector lowest fp=1.74e+04 Hz (M=8.9e+16, L4=1.2e+11): SNR 1yr ET=0.219 CE=1.11; 10yr CE=3.50; 10yr CE with S_max shift (fp=1.1e+04)=12.23; Omega_peak/QL channel=1.3e+06 photon=1.4e+03 linear=9.6e+00
+ nu=3.0 scalar lowest fp=3.29e+04 Hz (M=3.5e+16, L4=2.3e+11): SNR 1yr ET=0.043 CE=0.21; 10yr CE=0.66; 10yr CE with S_max shift (fp=2.0e+04)=2.37; Omega_peak/QL channel=1.1e+05 photon=1.1e+02 linear=5.5e-01
+ nu=3.0 dirac  lowest fp=3.58e+04 Hz (M=3.1e+16, L4=2.5e+11): SNR 1yr ET=0.035 CE=0.17; 10yr CE=0.53; 10yr CE with S_max shift (fp=2.2e+04)=1.91; Omega_peak/QL channel=7.6e+04 photon=7.7e+01 linear=3.8e-01
+ nu=3.0 vector lowest fp=2.28e+04 Hz (M=3.5e+16, L4=1.6e+11): SNR 1yr ET=0.110 CE=0.55; 10yr CE=1.73; 10yr CE with S_max shift (fp=1.4e+04)=6.11; Omega_peak/QL channel=4.6e+05 photon=4.6e+02 linear=2.8e+00
+
+alpha=0.0005: Omega_peak=2.50e-10; int dlnf Omega=2.91e-10; DeltaNeff=5.2e-05
+ nu=2.0 scalar lowest fp=1.20e+06 Hz (M=8.3e+15, L4=8.2e+11): SNR 1yr ET=0.000 CE=0.00; 10yr CE=0.00; 10yr CE with S_max shift (fp=7.0e+05)=0.00; Omega_peak/QL channel=6.0e-04 photon=6.1e-07 linear=5.1e-10
+ nu=2.0 dirac  lowest fp=1.30e+06 Hz (M=6.4e+15, L4=8.9e+11): SNR 1yr ET=0.000 CE=0.00; 10yr CE=0.00; 10yr CE with S_max shift (fp=7.6e+05)=0.00; Omega_peak/QL channel=4.3e-04 photon=4.4e-07 linear=3.5e-10
+ nu=2.0 vector lowest fp=8.31e+05 Hz (M=8.3e+15, L4=5.7e+11): SNR 1yr ET=0.000 CE=0.00; 10yr CE=0.00; 10yr CE with S_max shift (fp=4.8e+05)=0.00; Omega_peak/QL channel=2.6e-03 photon=2.6e-06 linear=2.7e-09
+ nu=3.0 scalar lowest fp=1.57e+06 Hz (M=3.8e+15, L4=1.1e+12): SNR 1yr ET=0.000 CE=0.00; 10yr CE=0.00; 10yr CE with S_max shift (fp=9.1e+05)=0.00; Omega_peak/QL channel=2.0e-04 photon=2.1e-07 linear=1.5e-10
+ nu=3.0 dirac  lowest fp=1.71e+06 Hz (M=2.9e+15, L4=1.2e+12): SNR 1yr ET=0.000 CE=0.00; 10yr CE=0.00; 10yr CE with S_max shift (fp=9.9e+05)=0.00; Omega_peak/QL channel=1.5e-04 photon=1.5e-07 linear=1.0e-10
+ nu=3.0 vector lowest fp=1.09e+06 Hz (M=3.8e+15, L4=7.4e+11): SNR 1yr ET=0.000 CE=0.00; 10yr CE=0.00; 10yr CE with S_max shift (fp=6.3e+05)=0.00; Omega_peak/QL channel=8.8e-04 photon=9.0e-07 linear=7.9e-10
+
+Frequency scan, alpha=0.05 (10 yr):
+ fp=1.2e+04: SNR ET=1.75e+00 CE=9.14e+00 HLVK=1.5e-03; Omega(100 Hz)=2.6e-12 vs BNS residual 4.6e-11; margin QL channel 6.0e+06 photon 6.1e+03 linear 5.1e+01
+ fp=2.0e+04: SNR ET=4.88e-01 CE=2.44e+00 HLVK=3.8e-04; Omega(100 Hz)=6.9e-13 vs BNS residual 4.6e-11; margin QL channel 7.7e+05 photon 7.9e+02 linear 5.1e+00
+ fp=4.0e+04: SNR ET=8.24e-02 CE=3.95e-01 HLVK=6.0e-05; Omega(100 Hz)=1.1e-13 vs BNS residual 4.6e-11; margin QL channel 4.8e+04 photon 4.9e+01 linear 2.3e-01
+ fp=1.0e+05: SNR ET=7.42e-03 CE=3.41e-02 HLVK=5.0e-06; Omega(100 Hz)=9.5e-15 vs BNS residual 4.6e-11; margin QL channel 1.2e+03 photon 1.3e+00 linear 3.7e-03
+ fp=1.4e+05: SNR ET=3.03e-03 CE=1.37e-02 HLVK=2.0e-06; Omega(100 Hz)=3.8e-15 vs BNS residual 4.6e-11; margin QL channel 3.2e+02 photon 3.3e-01 linear 8.1e-04
+ fp=3.0e+05: SNR ET=3.89e-04 CE=1.72e-03 HLVK=2.5e-07; Omega(100 Hz)=4.7e-16 vs BNS residual 4.6e-11; margin QL channel 1.5e+01 photon 1.6e-02 linear 2.6e-05
+ fp=8.0e+05: SNR ET=2.68e-05 CE=1.16e-04 HLVK=1.6e-08; Omega(100 Hz)=3.1e-17 vs BNS residual 4.6e-11; margin QL channel 3.0e-01 photon 3.1e-04 linear 3.2e-07
+
+Cross-check: PLISC at 100 Hz (SNR=1, 1 yr): ET=-11.20 (log10), CE=-12.06 (log10), HLVK=-8.21 (log10)
+Peak crosses the channel quantum limit at fp = 5.93e+05 Hz for alpha = 0.05
+Peak crosses the channel quantum limit at fp = 1.88e+05 Hz for alpha = 0.0005

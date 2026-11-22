@@ -1,0 +1,13 @@
+alpha_s(1e11, 1e12, 1e13 GeV) = 0.0315, 0.0292, 0.0271; kappa = (0.1, 0.2, 0.4), f_hs = (0.3, 0.8)
+benchmark H/beta=0.1 nu=2: T_reh 5.5e+10-9.0e+12, E_h 6.8e+17: H t_th 0.026-1.874 (kappa=0.2: 0.052-0.937); hard-soft/coll 0.001-0.106; total/coll 0.006-0.396; reach 4.4e+14-5.7e+15 GeV
+benchmark H/beta=0.1 nu=3: T_reh 7.2e+10-9.0e+12, E_h 3.0e+17: H t_th 0.020-1.250 (kappa=0.2: 0.041-0.625); hard-soft/coll 0.000-0.070; total/coll 0.004-0.264; reach 3.4e+14-3.8e+15 GeV
+benchmark H/beta=0.03 nu=2: T_reh 1.2e+11-2.0e+12, E_h 2.0e+17: H t_th 0.023-0.444 (kappa=0.2: 0.045-0.222); hard-soft/coll 0.002-0.083; total/coll 0.016-0.313; reach 3.6e+14-1.5e+15 GeV
+benchmark H/beta=0.03 nu=3: T_reh 1.6e+11-2.0e+12, E_h 9.1e+16: H t_th 0.018-0.296 (kappa=0.2: 0.035-0.148); hard-soft/coll 0.001-0.056; total/coll 0.012-0.209; reach 2.8e+14-9.9e+14 GeV
+benchmark H/beta=0.01 nu=2: T_reh 2.5e+11-2.4e+12, E_h 6.8e+16: H t_th 0.020-0.281 (kappa=0.2: 0.040-0.141); hard-soft/coll 0.004-0.158; total/coll 0.042-0.594; reach 3.0e+14-9.3e+14 GeV
+benchmark H/beta=0.01 nu=3: T_reh 3.3e+11-2.4e+12, E_h 3.0e+16: H t_th 0.015-0.187 (kappa=0.2: 0.031-0.094); hard-soft/coll 0.003-0.106; total/coll 0.033-0.396; reach 2.3e+14-6.2e+14 GeV
+An-Li alpha=0.05 nu=2: T_* 1.3e+11-1.9e+12, E_h 3.8e+17, FI/coll 0.48: H t_th 0.032-0.595 (kappa=0.2: 0.064-0.298); hard-soft/coll 0.005-0.230; total/coll 0.046-0.861; reach 5.1e+14-2.0e+15 GeV
+An-Li alpha=0.05 nu=3: T_* 1.9e+11-1.9e+12, E_h 1.7e+17, FI/coll 0.48: H t_th 0.027-0.397 (kappa=0.2: 0.054-0.198); hard-soft/coll 0.004-0.153; total/coll 0.039-0.574; reach 4.2e+14-1.3e+15 GeV
+An-Li alpha=0.005 nu=2: T_* 2.5e+11-2.5e+12, E_h 1.2e+17, FI/coll 1.37: H t_th 0.026-0.387 (kappa=0.2: 0.053-0.194); hard-soft/coll 0.011-0.425; total/coll 0.108-1.594; reach 4.0e+14-1.3e+15 GeV
+An-Li alpha=0.005 nu=3: T_* 3.2e+11-2.5e+12, E_h 5.4e+16, FI/coll 1.37: H t_th 0.020-0.258 (kappa=0.2: 0.040-0.129); hard-soft/coll 0.008-0.283; total/coll 0.082-1.063; reach 3.0e+14-8.5e+14 GeV
+An-Li alpha=0.0005 nu=2: T_* 5.7e+11-3.1e+12, E_h 3.8e+16, FI/coll 4.25: H t_th 0.023-0.246 (kappa=0.2: 0.047-0.123); hard-soft/coll 0.030-0.837; total/coll 0.298-3.138; reach 3.4e+14-8.0e+14 GeV
+An-Li alpha=0.0005 nu=3: T_* 6.3e+11-3.1e+12, E_h 1.7e+16, FI/coll 4.25: H t_th 0.017-0.164 (kappa=0.2: 0.033-0.082); hard-soft/coll 0.021-0.558; total/coll 0.211-2.092; reach 2.4e+14-5.3e+14 GeV
