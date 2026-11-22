@@ -1,0 +1,25 @@
+{
+  "title": "superheavy-gravDM: code and data for 'Superheavy gravitational dark matter from runaway bubble collisions'",
+  "upload_type": "software",
+  "description": "Physics package (src/gravdm), compute and figure scripts, stored numerical results, the figures of the main text and of the Supplemental Material, tests, third-party data and a provenance map (docs/PROVENANCE.md) from every figure, table and number of the paper to the script and output that produce it. Code: MIT licence; stored results and figures: CC BY 4.0.",
+  "creators": [
+    {
+      "name": "Chiang, Cheng-Wei",
+      "orcid": "0000-0003-1716-0169",
+      "affiliation": "National Taiwan University"
+    },
+    {
+      "name": "Tran, Van Que",
+      "orcid": "0000-0003-4643-4050",
+      "affiliation": "National Center for Theoretical Sciences"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dark matter",
+    "gravitational production",
+    "first-order phase transitions",
+    "bubble collisions",
+    "runaway walls"
+  ]
+}
