@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gravdm"
-version = "2.0.0"
+version = "1.0.0"
 description = "Code and data for 'Superheavy gravitational dark matter from runaway bubble collisions'"
 readme = "README.md"
 requires-python = ">=3.10"
