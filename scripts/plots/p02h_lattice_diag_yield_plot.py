@@ -9,11 +9,13 @@ Reads output/02h_lattice_diag_yield.npz. Writes plots/p02h_lattice_diag_yield_pe
 import sys, pathlib
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.ticker import FixedLocator, FixedFormatter, NullFormatter
 ROOT = pathlib.Path(__file__).resolve().parents[2]   # repository root
 from gravdm import paper_plotstyle as ps
 
 CFG = dict(gammas=(80, 160), marker={80: "o", 160: "s"}, col={80: "#d62728", 160: ps.COL["c1"]},
-           ls={1e-3: "-"}, hspace=0.16, xlim={1e-3: (1e-2, 2.0), 0.2: (0.1, 2.0)}, x_max=2.0, rlim=(0.9, 1.1), forms=("perlog",))
+           ls={1e-3: "-"}, hspace=0.16, xlim={1e-3: (1e-2, 2.0), 0.2: (0.1, 2.0)}, x_max=2.0, rlim=(0.9, 1.1), forms=("perlog",),
+           xticks={0.2: (0.1, 0.2, 0.5, 1.0, 2.0)})   # explicit labels where the axis spans less than a decade
 
 ps.apply()
 d = np.load(ROOT / "output/02h_lattice_diag_yield.npz"); xf = d["xfine"]
@@ -36,6 +38,10 @@ for mu in d["mus"]:
     else:
         a.set(ylim=(0, None), ylabel=r"$p_1p_2\,d^2(N_{\rm ev}/A)/dp_1dp_2$ [norm.]")
     a.set(xscale="log", xlim=[v for k, v in CFG["xlim"].items() if np.isclose(k, mu)][0])
+    xt = [v for k, v in CFG["xticks"].items() if np.isclose(k, mu)]
+    if xt:   # less than a decade: matplotlib would label the minor ticks too (2x10^-1, 3x10^-1, ...), which overlap
+        b.xaxis.set_major_locator(FixedLocator(xt[0])); b.xaxis.set_major_formatter(FixedFormatter([f"{v:g}" for v in xt[0]]))
+        b.xaxis.set_minor_formatter(NullFormatter())
     mlab = r"10^{-3}" if np.isclose(mu, 1e-3) else f"{mu:g}"
     a.legend(loc="lower left" if form == "dens" else "upper left", fontsize=5.6, title=rf"Dirac $X$, $M_X={mlab}\,\gamma m$", title_fontsize=5.6)
     b.set(xlabel=r"$p_1/(\gamma m)=p_2/(\gamma m)$", ylabel="lat./parton", ylim=CFG["rlim"])
