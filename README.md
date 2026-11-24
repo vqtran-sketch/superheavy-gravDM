@@ -4,7 +4,8 @@
 
 Code, stored numerical results and figure scripts for the main text and its Supplemental Material
 
-> C.-W. Chiang and V. Q. Tran, *Superheavy gravitational dark matter from runaway bubble collisions* (2026), arXiv number to be added.
+> C.-W. Chiang and V. Q. Tran, *Superheavy gravitational dark matter from runaway bubble collisions* (2026),
+> [arXiv:2611.30113](https://arxiv.org/abs/2611.30113).
 
 This version contains only the code and data that the main text and its Supplemental Material use. `docs/PROVENANCE.md` maps every
 figure, table and quantitative statement of the main text and of the Supplemental Material (Secs. S1–S8) to the script and stored output
@@ -124,8 +125,10 @@ If you use this code or its results, please cite the paper (see also `CITATION.c
 @article{Chiang:2026gravdm,
     author        = "Chiang, Cheng-Wei and Tran, Van Que",
     title         = "{Superheavy gravitational dark matter from runaway bubble collisions}",
-    year          = "2026",
-    note          = "arXiv number to be added"
+    eprint        = "2611.30113",
+    archivePrefix = "arXiv",
+    primaryClass  = "hep-ph",
+    year          = "2026"
 }
 ```
 

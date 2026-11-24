@@ -21,4 +21,8 @@ preferred-citation:
     - family-names: Tran
       given-names: Van Que
   year: 2026
-  notes: "arXiv number to be added on submission."
+  identifiers:
+    - type: other
+      value: "arXiv:2611.30113"
+      description: "arXiv preprint"
+  url: "https://arxiv.org/abs/2611.30113"

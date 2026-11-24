@@ -21,5 +21,13 @@
     "first-order phase transitions",
     "bubble collisions",
     "runaway walls"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2611.30113",
+      "relation": "isSupplementTo",
+      "scheme": "arxiv",
+      "resource_type": "publication-preprint"
+    }
   ]
 }
